@@ -24,21 +24,13 @@
             }
         #historyhead{
             margin-bottom: 0px;
-            background-color: #95a54be8;
-            padding: 20px;
             margin-left: 30px;
-            width: 350px;
-            text-align: center;
-            border-radius: 10px;
             margin-top: 15%;
+            width: 350px;
         }
-        .negotiations h2{
+        #negotiations{
             margin-bottom: 0px;
-            background-color: #95a54be8;
-            padding: 20px;
             width: 550px;
-            text-align: center;
-            border-radius: 10px;
             margin-top: 15%;
             margin-left: auto;
             margin-right: auto;
@@ -62,18 +54,14 @@
             margin-left: 45px;
             font-weight: 800;
         }
-            .Quicklinks:hover{
+        .Quicklinks:hover{
             background-color: #c97f25c9;
             color: #704b0d;
         }
         .communities h2{
             margin-bottom: 0px;
-            background-color: #95a54be8;
-            padding: 20px;
             margin-left: 47%;
             width: 45%;
-            text-align: center;
-            border-radius: 10px;
             margin-top: 15%;
         }
         .negotiations img{
@@ -87,13 +75,6 @@
             margin-bottom: -1px;
             margin-left: 30px;
             box-shadow:6px 8px 15px #5f6932e8;
-        }
-        article p{
-            background-color: #a1b25379;
-            margin-top: -10px;
-            margin-left: 80px;
-            margin-right: 80px;
-            border-radius: 3px;
         }
         figure img{
             width: 800px;
@@ -109,14 +90,6 @@
             border-radius: 20%;
             color: #000000;
             font-family: 'Gamja Flower', cursive;
-        }
-        figcaption a{
-            text-decoration: underline;
-            color: #64510fc1;
-            font-size: 35px;
-        }
-        figcaption a:hover{
-            color: #cd5002d2;
         }
         .negotiations figcaption{
             font-size: 30px;
@@ -144,39 +117,39 @@
 </head>
 <body>
     <nav class="navigation">
-        <a href="WebProject2.html">Home</a>
+        <a href="WebProject2.html" tabindex="1">Home</a>
             <h1 id="Title">Treaty One 4 <span style="color: #ffca0b;"><i>Kids</i></span></h1>
     </nav>
-        <a class="Quicklinks" href="#historyhead" >History</a>
-        <a class="Quicklinks" href="#negotiations">Negotiations</a>
-        <a class="Quicklinks" href="#communities" >Communities</a>
-        <a class="Quicklinks" href="More.html">More</a>
+        <a class="Quicklinks" href="#historyhead" tabindex="2">History</a> 
+        <a class="Quicklinks" href="#negotiations" tabindex="3">Negotiations</a>
+        <a class="Quicklinks" href="#communities" tabindex="4">Communities</a>
+        <a class="Quicklinks" href="More.html" tabindex="5">More</a>
     <main>
         <p style="margin-right: 20px; margin-top:100px; text-align: center;">
-            <img id="Intro" src="images.html/Treaty People.jpg" alt="Book Cover of (We are treaty people)">
+            <img id="Intro" src="images.html/Treaty People.jpg" alt="Book Cover of (We are treaty people)" tabindex="6">
             Welcome to our Treaty One website! Treaty One was the first treaty made in what is now Manitoba. It was an important agreement between the Canadian government and Indigenous Peoples. This website will help you learn about where it happened, the communities involved, and why it still matters today.</p>
+            <p style="margin-top: -50px;text-align: left;" class="source">Img src:<a href="https://www.goodreads.com/book/show/32319221-we-are-all-treaty-people" target="_blank">Source</a></p>
         <article>
-            <h2 id="historyhead">History</h2>
-            <p>Treaty One, also known as the Stone Fort Treaty, was signed in 1871. It was an agreement between the First Nations people and the Canadian government, as both sides wanted protection for their land and resources. The government promised to provide the First Nations people with food, money, and help with farming, while the First Nations agreed to share their land. 
-                In return, the First Nations were also promised schools, medicine, and the ability to continue hunting and fishing on their land, as they had done for generations. Each family of five was promised 160 acres of land in Treaty One. This land was intended to help the First Nations people farm, build homes, and grow food to support their families. 
+            <h2 id="historyhead" tabindex="7">History</h2>
+            <p class="source" tabindex="8">Treaty One was an agreement made on August 3, 1871, between the First Nations people and the Canadian government. At first, it seemed like a good deal as the government <span class="highlights">promised</span> the First Nation people food, supplies, and land. They also promised each family of five 160 acres to live and farm on. But soon after the treaty was signed, the Indigenous people realized they didn’t get everything they were promised. They told the Canadian government, but their voices went <span class="highlights">unheard</span> as settlers kept moving onto their land anyway. Even today, the broken promises from Treaty One are still talked about as people are still trying to fix the <span class="highlights">mistakes</span> that were made so long ago.
+                <a href="https://kids.kiddle.co/Treaty_1" target="_blank">Source</a>
             </p>
         </article>
         <hr style="border-bottom: none;">
         <figure>
-            <img src="images.html/TreatyMapCanada-.jpeg" alt="Detailed Map Showing the Treaties in Canada">
+            <img src="images.html/TreatyMapCanada-.jpeg" alt="Detailed Map Showing the Treaties in Canada" tabindex="9">
             <br />
             <figcaption>
-                <p>Treaty map of Canada <a href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/" target="_blank">Source</a></p>
+                <p class="source">Treaty map of Canada <a href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/" target="_blank">Source</a></p>
             </figcaption>
         </figure>
         <hr style="border-top: none;">
         <article>
             <div class="negotiations">
-            <h2 id="negotiations">Negotiations</h2>
+            <h2 id="negotiations" tabindex="10">Negotiations</h2>
             <img src="images.html/lower fort gary.jpg" alt="Aerial view of Lower Fort Garry">
-            <figcaption>Lower Fort Gary (June 2019)<a href="https://mhs.mb.ca/docs/sites/lowerfortgarry.shtml">Source</a></figcaption>
-            <p>Treaty One, also known as the Stone Fort Treaty, was signed in 1871. It was an agreement between the First Nations people and the Canadian government, as both sides wanted protection for their land and resources. The government promised to provide the First Nations people with food, money, and help with farming, while the First Nations agreed to share their land. 
-                In return, the First Nations were also promised schools, medicine, and the ability to continue hunting and fishing on their land, as they had done for generations. Each family of five was promised 160 acres of land in Treaty One. This land was intended to help the First Nations people farm, build homes, and grow food to support their families. 
+            <figcaption>Lower Fort Gary (June 2019)<a class="source" href="https://mhs.mb.ca/docs/sites/lowerfortgarry.shtml" target="_blank">Source</a></figcaption>
+            <p class="source" style="text-align: left; font-size: 25px;" tabindex="11">Treaty One was negotiated in 1871 at Lower Fort Garry, located along the Red River in Manitoba. The meeting brought together leaders from the First Nations and government representatives, including Alexander Morris, the Canadian government’s representative. They discussed sharing the land and what the government would provide in return for the land.<a style="font-size: 25px; text-align: right;" href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/" target="_blank"> Source</a>
             </p>
             </div>
         </article>
@@ -184,15 +157,15 @@
         <hr style="border-top: none;margin-bottom: -100px;">
         <article>
             <div class="communities">
-                <h2 id="communities">Communities</h2>
-                <p>Treaty One, also known as the Stone Fort Treaty, was signed in 1871. It was an agreement between the First Nations people and the Canadian government, as both sides wanted protection for their land and resources. The government promised to provide the First Nations people with food, money, and help with farming, while the First Nations agreed to share their land. 
-                    In return, the First Nations were also promised schools, medicine, and the ability to continue hunting and fishing on their land, as they had done for generations. Each family of five was promised 160 acres of land in Treaty One. This land was intended to help the First Nations people farm, build homes, and grow food to support their families. 
+                <h2 id="communities" tabindex="12">Communities</h2>
+                <p class="source" style="text-align: left;" tabindex="13">Treaty One is connected to the Cree, Saulteaux, and Assiniboine communities because it was an agreement with the Canadian government about sharing their land. These communities lived closely with nature, using the land for food, clothing, and shelter. After the treaty was signed, the government took control of a big area of the land, leaving the First Nations with less space and fewer resources. This change forced them to adapt to a new way of life, and they had to find new ways to live with the less land and fewer resources they had.
+                    <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank"> Source</a>
                 </p>
                 </div>
         </article>
     </main>
     <footer> 
-        <p><i>© 2025 Treaty One. All rights reserved.</i></p>
+        <p><i>© 2025 Treaty One. All rights reserved. </i><a href="WebProject2.html">Home</a></p>
     </footer>
 </body>
 </html>
