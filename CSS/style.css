@@ -58,7 +58,7 @@ h2{
     border-radius: 10px;
     }
 hr{
-    border: 10px dotted #8db16a;
+    border: 10px dotted #e6a518e8;
     border-radius: 30%;
     border-left: none;
     border-right: none;
@@ -104,4 +104,9 @@ body{
 }
 .source a:hover{
     color: #cd5002d2;
+}
+img {
+    background-color: #A0C878;
+    color: #000;
+    font-size: 50px;
 }
