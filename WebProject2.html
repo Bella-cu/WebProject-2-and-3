@@ -13,10 +13,11 @@ Date Last Modified:  2025-03-19-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebProject2</title>
+    <!--fonts used in the website-->
     <link href="https://fonts.googleapis.com/css?family=Faustina:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Chewy:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Short+Stack:regular" rel="stylesheet" />
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css"><!--external style sheet-->
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Schoolbell:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
@@ -45,8 +46,8 @@ Date Last Modified:  2025-03-19-->
             margin-right: auto;
         }
         .Quicklinks {
-            justify-content: center;
-            display: inline-block;
+            justify-content: center;/*centers the quicklinks horizontaly*/
+            display: inline-block;/*makes quicklinks display in a row*/
             width:auto;
             height:auto;
             background-color: #FF9D23;
@@ -114,7 +115,7 @@ Date Last Modified:  2025-03-19-->
             border-radius: 10px;
             text-decoration: underline;
         }
-        .negotiations a{
+        .negotiations a{/*style for the negotiations source link*/
             text-decoration: underline;
             color: #64510fc1;
         }
@@ -127,18 +128,18 @@ Date Last Modified:  2025-03-19-->
             margin-top:100px;
             text-align: center;
         }
-        section img{
+        section img{/*style for the treaty map*/
             width: 800px;
             border: solid 15px #eb5a005b;
             border-radius:25%;
         }
-        section{
+        section{/*section for the treaty map*/
             background-color: #368c5a6b;
             padding: 50px;
             width: 92%;
         }
         hr{
-            margin-top: 150px;
+            margin-top: 150px;/*removes the space between the hr as the defult*/
         }
         .Treatyimg img:hover{
             background-color: #80a54b;
@@ -153,7 +154,7 @@ Date Last Modified:  2025-03-19-->
     <nav class="navigation">
         <a href="WebProject2.html" tabindex="1">Home</a>
             <h1 id="Title">Treaty One 4 <span style="color: #ffca0b;"><i>Kids</i></span></h1>
-    </nav>
+    </nav><!--Quick links to quickly navigate page-->
         <a class="Quicklinks" href="#historyhead" tabindex="2">History</a> 
         <a class="Quicklinks" href="#negotiations" tabindex="3">Negotiations</a>
         <a class="Quicklinks" href="#communities" tabindex="4">Communities</a>
@@ -161,8 +162,10 @@ Date Last Modified:  2025-03-19-->
     <main>
         <p id="Introduction">
             <img id="Intro" src="images.html/Treaty People.jpg" alt="Book Cover of (We are treaty people)" tabindex="6">
-            <p style="margin-top:-10%;">Welcome to our Treaty One website! Treaty One was the first treaty made in what is now Manitoba. It was an important agreement between the Canadian government and Indigenous Peoples. This website will help you learn about where it happened, the communities involved, and why it still matters today.</p>
-            <p style="margin-top: -50px;text-align: left;" class="source" tabindex="7">Img src:<a href="https://www.goodreads.com/book/show/32319221-we-are-all-treaty-people" target="_blank">Source</a></p>
+            <p style="margin-top:-5%;">Welcome to our Treaty One website! Treaty One was the first treaty made in what is now Manitoba. It was an important agreement between the Canadian government and Indigenous Peoples. This website will help you learn about where it happened, the communities involved, and why it still matters today.</p>
+            <p style="margin-top: -50px;text-align: left;" class="source" tabindex="7">Img src:
+                <a href="https://www.goodreads.com/book/show/32319221-we-are-all-treaty-people" target="_blank">Source</a>
+            </p>
             <hr style="border-bottom: none;">
             <article>
             <h2 id="historyhead" tabindex="8">History</h2>
@@ -185,18 +188,19 @@ Date Last Modified:  2025-03-19-->
         <article>
             <div class="negotiations">
             <h2 id="negotiations" tabindex="13">Negotiations</h2>
-            <img src="images.html/lower fort gary.jpg" alt="Aerial view of Lower Fort Garry">
+            <img src="images.html/lower fort gary.jpg" alt="Aerial view of Lower Fort Garry"><!--image of where the negotiation took place-->
             <figcaption>Lower Fort Gary (June 2019)<a class="source" href="https://mhs.mb.ca/docs/sites/lowerfortgarry.shtml" target="_blank"   tabindex="14">Source</a></figcaption>
             <p class="source" style="text-align: left; " tabindex="15">Treaty One was negotiated in 1871 at Lower Fort Garry, located along the Red River in Manitoba. The meeting brought together leaders from the First Nations and government representatives, including Alexander Morris, the Canadian government’s representative. They discussed sharing the land and what the government would provide in return for the land.<a style="text-align: right;" href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/" target="_blank" tabindex="16"> Source</a>
             </p>
             </div>
         </article>
         <div class="Treatyimg">
-        <hr style="border-bottom: none; margin-bottom:-50px">
+        <hr style="border-bottom: none; margin-bottom:-50px"><!--hr style to remove bottom border and space from the bottom-->
         <a href="https://treaty1.ca/t1-153/" target="_blank" tabindex="17">
-            <img src="images.html/Treaty one logo.png" alt="Treaty One Logo"></a>
+            <img src="images.html/Treaty one logo.png" alt="Treaty One Logo"></a><!--takes user to the treatyone page-->
         <hr style="border-top: none; margin-top: -50px;margin-bottom: -40px;">
         </div>
+        <!--Section for the communities aspect-->
         <article>
             <div class="communities">
                 <h2 id="communities" tabindex="18">Communities</h2>
@@ -206,6 +210,7 @@ Date Last Modified:  2025-03-19-->
                 </div>
         </article>
     </main>
+    <!--Footer at the bottom of page-->
     <footer> 
         <p><i>© 2025 Treaty One. All rights reserved. </i><a href="WebProject2.html" tabindex="21">Home</a></p>
     </footer>
