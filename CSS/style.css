@@ -5,9 +5,9 @@
     height: 70px;
     padding: 20px;
     background-color: #A0C878;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    display: flex;/*lays items in  row within the class*/
+    align-items: center;/*aligns items vertically in the center*/
+    justify-content: flex-start;/* Moves items to the left */
     border-bottom: solid 2px #eb5a006c;
 }
 footer a{
@@ -18,7 +18,7 @@ footer a{
 footer a:hover{
 color: #cd5002d2;
 }
-.navigation a {
+.navigation a {/*design for the naviation link*/
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 'Chewy', cursive;
@@ -30,7 +30,7 @@ color: #cd5002d2;
     font-weight: 800;
 }
 
-.navigation a:hover {
+.navigation a:hover {/*design for when link is hovered on*/
     color: #3b5a249c;
     text-decoration: underline;
 }
@@ -38,7 +38,7 @@ p {
     color: rgb(0, 0, 0);
     font-size: 35px;
     font-family: 'Gamja Flower', cursive;
-    padding: 30px;
+    padding: 30px;/*spaces the words from the border*/
     margin-right: 15px;
 }
 article p{
@@ -46,10 +46,10 @@ article p{
     margin-top: -10px;
     margin-left: 80px;
     margin-right: 80px;
-    border-radius: 3px;
+    border-radius: 3px;/*curves the boder corners*/
 }
 
-h2{
+h2{/*defult for the article headers(and all h2)*/
     font-family:'Gluten',cursive;
     font-size: 70px;
     background-color: #95a54be8;
@@ -59,8 +59,8 @@ h2{
     }
 hr{
     border: 10px dotted #e6a518e8;
-    border-radius: 30%;
-    border-left: none;
+    border-radius: 30%;/*curves the border*/
+    border-left: none;/*removes the border from the left*/
     border-right: none;
     height: 10px;
     width: 90%;
@@ -68,7 +68,7 @@ hr{
     margin-bottom: 50px;
     padding: 20px;
 }
-footer p{
+footer p{/*footer pararaph*/
     font-family:'Faustina',sans-serif;
     margin-bottom: 0px;
     font-size: 25px;
@@ -79,25 +79,22 @@ footer{
     text-align: center;
 }
 
-#Title {
+#Title {/*style for the websites name*/
     font-size: 50px;
     font-family: 'Short Stack', cursive;
     margin-left: auto;
-    margin-right: 6%;
+    margin-right: 6%;/*adjusts the title closer to the middle*/
     width: 100%;
     text-align: center;
     color: #9e571d;
-    text-decoration: underline 5px #7e4314;
+    text-decoration: underline 5px #7e4314;/*design for the underline of title*/
 }
-body{
+body{/*style for the basic webpages*/
     background-color: #DDEB9D;
     margin: 0;
     text-align: center;
 }
-.highlights{
-    color: #9b1313;
-}
-.source a{
+.source a{/*sources defult */
     text-decoration: underline;
     color: #64510fc1;
     font-size: 35px;
@@ -105,7 +102,7 @@ body{
 .source a:hover{
     color: #cd5002d2;
 }
-img {
+img { /*defult settings for all images*/
     background-color: #A0C878;
     color: #000;
     font-size: 50px;
