@@ -127,12 +127,48 @@
         #iframetext:hover{
             color: #000000d2;/*changes the youtube link to black*/
         }
+        #form{
+            width: 100%;
+            height: 200px;
+            margin-top: 100px;
+            border: 3px solid #6d7936;
+            border-radius: 30px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #2d533ccd;
+        }
+        #form legend{
+            font-size: 40px;
+            text-align: center;
+            font-family: 'chewy', cursive;
+            color: #5e3910d2;/*changes the text to black*/
+            background-color: #e7b64cbd;
+        }
+        #form input{
+            height: 50px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            border: 3px solid #589153;
+            font-size: 30px;
+            text-align: center;
+        }
+        #form fieldset{
+            background: none;
+            border: none;
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+
     </style>
 </head>
 <body>
     <nav>
         <div class="navigation">
             <a href="index.html"tabindex="1">Home</a><!--Link to go back to the homepage-->
+            <a style="margin: auto ;" href="More.html" tabindex="2">More</a>
             <h1 id="Title">Treaty One 4 <span style="color: #ffca0b;"><i>Kids</i></span></h1><!--Website name-->
         </div>
     </nav>
@@ -181,9 +217,21 @@
             </p> 
             </div>
         </article>
+        <hr style="border-bottom: none;">
+        <section id="form">
+        <legend>What Did We Miss?</legend>
+            <fieldset>
+                <form>
+                    <input type="text" id="input" name="input" tabindex="13" required>
+                </form>
+            </fieldset>
+        </section>
+        <hr style="border-top: solid;">
+        <br />
+        <hr>
     </main>
     <footer> 
-        <p><i>© 2025 Treaty One. All rights reserved. </i><a href="index.html" tabindex="13">Home</a></p><!--copyright and link back to the homepage-->
+        <p><i>© 2025 Treaty One. All rights reserved. </i><a href="index.html" tabindex="14">Home</a></p><!--copyright and link back to the homepage-->
     </footer>
 </body>
 </html>

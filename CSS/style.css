@@ -1,3 +1,9 @@
+/*Colors used in the website*/
+/*#71BA6A*/
+/*#589153*/
+/*#86DE7E*/
+/*#3F693C*/
+/*#274024*/
 .navigation {
     overflow: hidden;
     border-top-left-radius: 20px;
@@ -7,7 +13,6 @@
     background-color: #A0C878;
     display: flex;/*lays items in  row within the class*/
     align-items: center;/*aligns items vertically in the center*/
-    justify-content: flex-start;/* Moves items to the left */
     border-bottom: solid 2px #eb5a006c;
 }
 footer a{
@@ -20,14 +25,16 @@ color: #cd5002d2;
 }
 .navigation a {/*design for the naviation link*/
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Chewy', cursive;
+    color: rgba(0, 0, 0, 0.651);
+    font-family: 'Short Stack', cursive;
     font-size: 30px;
-    background-color: #FF9D23;
+    background-color: #60885e;
     padding: 15px;
-    border: 2px solid #a96b14;
+    border: 2px solid #0000005e;
     border-radius: 20px;
-    font-weight: 800;
+    font-weight: 950;
+    letter-spacing: 2px;
+    margin-right: -13%;
 }
 
 .navigation a:hover {/*design for when link is hovered on*/
@@ -40,6 +47,7 @@ p {
     font-family: 'Gamja Flower', cursive;
     padding: 30px;/*spaces the words from the border*/
     margin-right: 15px;
+    letter-spacing: 1px;
 }
 article p{
     background-color: #95a54b71;
@@ -82,10 +90,7 @@ footer{
 #Title {/*style for the websites name*/
     font-size: 50px;
     font-family: 'Short Stack', cursive;
-    margin-left: auto;
-    margin-right: 6%;/*adjusts the title closer to the middle*/
-    width: 100%;
-    text-align: center;
+    margin-right: 31%;
     color: #9e571d;
     text-decoration: underline 5px #7e4314;/*design for the underline of title*/
 }
