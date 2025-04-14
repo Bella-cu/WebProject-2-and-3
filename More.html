@@ -1,237 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More</title>
-    <link href="https://fonts.googleapis.com/css?family=Faustina:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Faustina:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Chewy:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Short+Stack:regular" rel="stylesheet" />
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Schoolbell:regular" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700" rel="stylesheet" />
     <style>
         #Intro {
             margin: 15px;
-            width: 52%;/*changes the width to 52%*/
+            width: 52%;
+            /*changes the width to 52%*/
             height: 550px;
             border: solid 6px #eb5a00b2;
             border-radius: 15px;
-            float: left;/*moves theimage to the left*/
-            margin-top: -5px;/*reduces the space at the top*/
-            margin-bottom: 150px;/*adds space at the bottom*/
-            }
+            float: left;
+            /*moves theimage to the left*/
+            margin-top: -5px;
+            /*reduces the space at the top*/
+            margin-bottom: 150px;
+            /*adds space at the bottom*/
+        }
 
-        .difference{
+        .difference {
             margin: 40px;
+        }
 
-        }
-        .difference h2{
-            border: 5px solid #72822da9;
-            font-size: 60px;
+        .difference h2 {
             margin-top: 300px;
+            align-items: center;
         }
-        .difference p{
-            margin-top: -60px;
-            margin-bottom: 250px;
-        }
-        figure img{
-            border: 10px solid #6d7936a9;
+
+        figure img {
+            border: 10px solid #F0AD4E;
             border-radius: 10px;
             margin-top: auto;
         }
-        figcaption p{
-            background-color: #6d7936a9;
-            margin-top: -20px;
-            width: 776px;
+
+        figcaption p {
+            background-color: #F0AD4E;
+            margin-top: -4px;
             margin-left: auto;
+            width: 62%;
             margin-right: auto;
-            border: 2px solid #6d7936a9;
+            border: 3px solid #c99144;
             border-radius: 10px;
-            height: 30px;
-            text-align: center;
+            height: 20px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
         }
-        .relevancy figcaption{
-            font-size: 35px;
-            padding: 0px;
+
+        .relevancy figcaption {
+            font-size: 25px;
+            margin-bottom: -15px;
+            padding: 4px;
             color: #000000;
-            font-family: 'Gamja Flower', cursive;
+            font-family: 'fredoka', cursive;
             text-align: left;
             margin-left: auto;
             margin-right: auto;
-            width: 90%;
-            background-color: #889743;
-            border: 3px solid #6d7936;
-            border-radius: 10px;
+            width: 92%;
+            background-color: #d9544fac;
+            border: 3px solid #D9534F;
             text-decoration: none;
         }
-        .relevancy a{
-            text-decoration: underline;
-            color: #64510fc1;
+
+        .relevancy a {
+            text-decoration: none;
+            color: #5D4037;
             font-size: 25px;
         }
-        .relevancy a:hover{
-            color: #cd5002d2;
+
+        .relevancy a:hover {
+            text-decoration: underline;
+            color: #a11f1a;
         }
-        .relevancy img{
-            margin: 15px;
+
+        .relevancy img {
             width: 53%;
             height: auto;
-            border: solid 10px #889743e8;
+            border: solid 10px #d9544fac;
             border-radius: 15px;
-            float: left;/*moves it left*/
-            margin-top: -9px;
-            margin-bottom: -1px;
+            float: left;
+            /*moves it left*/
+            margin-top: -10px;
+            margin-bottom: -2px;
             margin-left: 30px;
-            box-shadow:6px 8px 15px #5f6932e8;/*adds shadow behind the img*/
+            margin-right: 15px;
         }
-        #relevancy{/*how is treaty one used today id */
+
+        #relevancy {
+            /*how is treaty one used today id */
             margin-bottom: 0px;
             width: 850px;
             margin-left: auto;
             margin-right: auto;
-            font-size: 60px;
             margin-top: 250px;
         }
-        hr{
+
+        .default {
             margin-top: 150px;
-            margin-bottom: -150px;/*removes empty space from the border*/
-            border-bottom: none;/*remoes the border at the bottom*/
-        }
-        iframe{
-            width: 850px;
-            height: 500px;
-            border: 10px solid #6d7936a9;
-            border-radius: 10px;
-            margin-top: 100px;
-        }
-        section{/*used to create the background of the iframe*/
-            background-color: #368c5a6b;
-            height: 700px;
-            margin: auto;
-        }
-        fieldset {
-            border: 1px solid #889743;/*makes the fieldset border 1px wide and solid green*/
-            background-color: #368c5a6b;
-            margin-top: 100px;/*creates space to distance it*/
-            padding-top:-150px ;
-        }
-        #iframetext{/*link for the youtube video*/
-            text-decoration: underline;
-            color: #64510fc1;
-            font-size: 40px;
-            text-align: center;
-            font-family: 'chewy', cursive;
-        }
-        #iframetext:hover{
-            color: #000000d2;/*changes the youtube link to black*/
-        }
-        #form{
-            width: 100%;
-            height: 200px;
-            margin-top: 100px;
-            border: 3px solid #6d7936;
-            border-radius: 30px;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #2d533ccd;
-        }
-        #form legend{
-            font-size: 40px;
-            text-align: center;
-            font-family: 'chewy', cursive;
-            color: #5e3910d2;/*changes the text to black*/
-            background-color: #e7b64cbd;
-        }
-        #form input{
-            height: 50px;
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10px;
-            border: 3px solid #589153;
-            font-size: 30px;
-            text-align: center;
-        }
-        #form fieldset{
-            background: none;
-            border: none;
-            margin-top: 0px;
-            padding-top: 0px;
+            margin-bottom: -150px;
+            /*removes empty space from the border*/
+            border-bottom: none;
+            /*remoes the border at the bottom*/
         }
 
+        iframe {
+            width: 850px;
+            height: 500px;
+            border: 10px solid #D9534F;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        section {
+            /*used to create the background of the iframe*/
+            background-color: #efcb60be;
+            height: 680px;
+            margin: auto;
+        }
+
+        fieldset {
+            border: none;
+            /*makes the fieldset border 1px wide and solid green*/
+            background-color: #efcb60be;
+            margin-top: 100px;
+            /*creates space to distance it*/
+            padding-top: -150px;
+        }
+
+        #iframetext {
+            /*link for the youtube video*/
+            text-decoration: underline;
+            color: #A67C52;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'nunito', cursive;
+        }
+
+        #iframetext:hover {
+            color: #D9534F;
+            /*changes the youtube link*/
+        }
+
+        .form {
+            height: 100%;
+            margin-top: -755px;
+            border: 3px solid #D9534F;
+            border-radius: 30px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #F0AD4E;
+        }
+
+        h3 {
+            font-size: 40px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'fredoka', cursive;
+            height: 100px;
+            color: #5e3910d2;
+        }
+
+        textarea {
+            resize: none;
+            height: 150px;
+            text-align: left;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            border: 3px solid #D9534F;
+            font-size: 20px;
+            margin-top: -70px;
+            margin-bottom: 10px;
+            background-color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        textarea:focus {
+            outline: none;
+            border: 2px solid #000000;
+            box-shadow: 0 0 5px #00000080;
+        }
+
+        #submit {
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border: 3px solid #5e3a10e4;
+            padding: 10px;
+            border-radius: 10px;
+            text-transform: capitalize;
+            color: #55330d;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 3px;
+            font-family: 'fredoka', cursive;
+            background-color: #efcb60be;
+        }
+
+        #submit:hover {
+            border-color: #5e3a10e4;
+            background-color: #0000002d;
+            cursor: pointer;
+            box-shadow: 0px 0px 5px 1px #5e3a10e4;
+        }
+
+        .straight {
+            border-top: 2px solid #D9534F;
+            border-bottom: 2px solid #D9534F;
+            height: 450px;
+            margin-top: 200px;
+            margin-bottom: 300px;
+            border-radius: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #source a {
+            text-decoration: underline;
+            font-family: 'chewy', cursive;
+            color: #A67C52;
+            font-size: 25px;
+        }
+
+        #source a:hover {
+            color: #D9534F;
+        }
     </style>
 </head>
+
 <body>
     <nav>
         <div class="navigation">
-            <a href="index.html"tabindex="1">Home</a><!--Link to go back to the homepage-->
-            <a style="margin: auto ;" href="More.html" tabindex="2">More</a>
-            <h1 id="Title">Treaty One 4 <span style="color: #ffca0b;"><i>Kids</i></span></h1><!--Website name-->
+            <a href="index.html" tabindex="1">Home</a><!--Link to go back to the homepage-->
+            <a style="margin: auto; href=" More.html" tabindex="2">More</a>
+            <h1 id="Title">Treaty One 4 <span style="color:#ffca0b;"><i>Kids</i></span></h1><!--Website name-->
         </div>
     </nav>
     <main>
         <figure style="margin: 0px;">
             <fieldset>
-                <legend><h2>Modern Treaty One</h2></legend><!--Introduction for user to show its a new page-->
-            <img src="images.html/Modern1.jpg" alt="Indigenous person dressed in cultural attire" tabindex="2">
-            <figcaption><!--Caption for the image to display the source-->
-            <p class="source">
-                <a href="https://films.solutions/filmmaking-with-first-nations-a-journey-through-canadas-indigenous-communities/" target="_blank" tabindex="3">Source</a></p>
-            </figcaption>
+                <legend>
+                    <h2 style="font-size: 75px; margin-top: -5px;">Modern Treaty One</h2>
+                </legend><!--Introduction for user to show its a new page-->
+                <img src="images.html/Modern1.jpg" alt="Indigenous person dressed in cultural attire" tabindex="2">
+                <figcaption><!--Caption for the image to display the source-->
+                    <p class="source">
+                        <a href="https://films.solutions/filmmaking-with-first-nations-a-journey-through-canadas-indigenous-communities/"
+                            target="_blank" tabindex="3">Source</a>
+                    </p>
+                </figcaption>
             </fieldset>
         </figure>
-        <hr>
+        <hr class="default">
         <article>
             <div class="difference">
                 <h2 tabindex="4">What makes Treaty One different?</h2>
-                <p tabindex="5">Treaty One was the first treaty made between the Canadian government and First Nation people in 1871, covering what is now Manitoba. The treaty was created in the founding of Manitoba and the arrival of new people to inhabit the land.  Treaty One was different because it was the expectation for the treaties that followed after it, as in the following treaties they did not come across the same problem of confusion in what they were agreeing on, unlike Treaty One. With Treaty One the First Nations people and the government didn’t always agree on what the treaty meant. Some people didn’t fully understand the language or the way the treaty was explained. This made it harder to know exactly what each side was agreeing to, especially about land and resources. The next treaties, like Treaty Two and Three, were made with clearer rules as the government worked harder to make sure both sides fully understood what was being talked about.</p>
+                <br />
+                <p style="margin-top: -67px;" tabindex="5">Treaty One was the first treaty made between the Canadian
+                    government and First Nation people in 1871, covering what is now Manitoba. The treaty was created in
+                    the founding of Manitoba and the arrival of new people to inhabit the land. Treaty One was different
+                    because it was the expectation for the treaties that followed after it, as in the following treaties
+                    they did not come across the same problem of confusion in what they were agreeing on, unlike Treaty
+                    One. With Treaty One the First Nations people and the government didn’t always agree on what the
+                    treaty meant. Some people didn’t fully understand the language or the way the treaty was explained.
+                    This made it harder to know exactly what each side was agreeing to, especially about land and
+                    resources. The next treaties, like Treaty Two and Three, were made with clearer rules as the
+                    government worked harder to make sure both sides fully understood what was being talked about.</p>
             </div>
         </article>
         <section>
-        <iframe src="https://www.youtube.com/embed/CISeEFTsgDA?si=kYh_fs97_tcPnWBE" tabindex="6" title="What is Indigenous?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen">
-        </iframe>
-        <br /><br />
-            <a id="iframetext" href="https://www.youtube.com/watch?v=CISeEFTsgDA&embeds_referring_euri=http%3A%2F%2F127.0.0.1%3A5501%2F&source_ve_path=OTY3MTQ" target="_blank" tabindex="7">Watch on youtube</a>
+            <iframe src="https://www.youtube.com/embed/CISeEFTsgDA?si=kYh_fs97_tcPnWBE" tabindex="6"
+                title="What is Indigenous?" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen">
+            </iframe>
+            <br /><br />
+            <a id="iframetext"
+                href="https://www.youtube.com/watch?v=CISeEFTsgDA&embeds_referring_euri=http%3A%2F%2F127.0.0.1%3A5501%2F&source_ve_path=OTY3MTQ"
+                target="_blank" tabindex="7">Watch on youtube</a>
         </section>
         <article>
-            <hr>
+            <hr class="default">
             <div class="relevancy">
-            <h2 id="relevancy" tabindex="8">How is Treaty One used today?</h2>
-            <figure>
-            <img src="images.html/Kapyong-Barracks-.png" alt="Kapyong Barracks Reserve Draft Master Plan">
-            <figcaption><!--Caption for the image-->
-                Img src:
-                <a href="https://lpband.ca/2022/12/naawi-oodena-officially-converted-to-joint-reserve-lands-to-become-the-largest-urban-reserve-in-manitoba/" tabindex="9" target="_blank">
-                    Source</a> 
-                    Article src: 
-                    <a href="https://manitoba-inc.ca/economic-prosperity-awaits-for-first-nation-development-of-urban-reserves-in-canada/" tabindex="10" target="_blank">
-                        Source</a>
-            </figcaption>
-            </figure>
-            <p class="source" style="text-align: left;">Treaty One is still affecting our lives as First Nations work to strengthen their rights and grow their economies through urban reserves and development projects. Urban reserves like the 
-                <!--links to find out more on the reserve--><a href="https://treaty1.ca/naawi-oodena/" tabindex="11" target="_blank"> Kapyong Urban Reserve</a>, allow First Nations to build their own businesses helping create income opportunities for their community.  While businesses like the 
-                <a href="https://firstnationsgas.ca/band/long-plain-first-nation/" tabindex="12" target="_blank"> Long Plain First Nation Gas Station</a> helps Treaty One communities grow. Projects like these allow for First Nations to have more control over their land and the money made goes into health care and education. Through these efforts, Treaty One continues to help First Nations get  more opportunities for success and independence.
-            </p> 
+                <h2 id="relevancy" tabindex="8">How is Treaty One used today?</h2>
+                <figure>
+                    <img src="images.html/Kapyong-Barracks-.png" alt="Kapyong Barracks Reserve Draft Master Plan">
+                    <figcaption><!--Caption for the image-->
+                        Img src:
+                        <a href="https://lpband.ca/2022/12/naawi-oodena-officially-converted-to-joint-reserve-lands-to-become-the-largest-urban-reserve-in-manitoba/"
+                            tabindex="9" target="_blank">
+                            Source</a>
+                        Article src:
+                        <a href="https://manitoba-inc.ca/economic-prosperity-awaits-for-first-nation-development-of-urban-reserves-in-canada/"
+                            tabindex="10" target="_blank">
+                            Source</a>
+                    </figcaption>
+                </figure>
+                <p id="source" style="text-align: left;">Treaty One is still affecting our lives as First Nations work
+                    to strengthen their rights and grow their economies through urban reserves and development projects.
+                    Urban reserves like the
+                    <!--links to find out more on the reserve--><a href="https://treaty1.ca/naawi-oodena/" tabindex="11"
+                        target="_blank"> Kapyong Urban Reserve</a>, allow First Nations to build their own businesses
+                    helping create income opportunities for their community. While businesses like the
+                    <a href="https://firstnationsgas.ca/band/long-plain-first-nation/" tabindex="12" target="_blank">
+                        Long Plain First Nation Gas Station</a> helps Treaty One communities grow. Projects like these
+                    allow for First Nations to have more control over their land and the money made goes into health
+                    care and education. Through these efforts, Treaty One continues to help First Nations get more
+                    opportunities for success and independence.
+                </p>
             </div>
         </article>
-        <hr style="border-bottom: none;">
-        <section id="form">
-        <legend>What Did We Miss?</legend>
-            <fieldset>
-                <form>
-                    <input type="text" id="input" name="input" tabindex="13" required>
-                </form>
-            </fieldset>
-        </section>
-        <hr style="border-top: solid;">
-        <br />
-        <hr>
+        <hr class="straight">
+        <div class="form">
+            <h3>What Would You Like Included?</h3>
+            <form action="More.html" method="post" target="_blank">
+                <textarea id="input" name="input" tabindex="13" placeholder="Enter here..." required></textarea>
+                <button id="submit" type="submit" value="submit">Submit</button>
+            </form>
+        </div>
     </main>
-    <footer> 
-        <p><i>© 2025 Treaty One. All rights reserved. </i><a href="index.html" tabindex="14">Home</a></p><!--copyright and link back to the homepage-->
+    <footer>
+        <p><i>© 2025 Treaty One| Made for kids in K–3 | </i><a href="index.html" tabindex="14">Homepage</a></p>
+        <!--copyright and link back to the homepage-->
     </footer>
 </body>
+
 </html>

@@ -4,24 +4,28 @@
 /*#86DE7E*/
 /*#3F693C*/
 /*#274024*/
+figcaption{
+    font-family: 'fredoka', cursive;
+}
 .navigation {
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 70px;
     padding: 20px;
-    background-color: #A0C878;
+    background-color: #ff504ac6;
     display: flex;/*lays items in  row within the class*/
     align-items: center;/*aligns items vertically in the center*/
     border-bottom: solid 2px #eb5a006c;
 }
 footer a{
-    color: white;
+    color: #1d1205d2;
     text-decoration: none;
     font-size: 30px;
     }
 footer a:hover{
-color: #cd5002d2;
+    color: #f4c86ec3;
+    text-decoration:underline;
 }
 .navigation a {/*design for the naviation link*/
     text-decoration: none;
@@ -42,15 +46,17 @@ color: #cd5002d2;
     text-decoration: underline;
 }
 p {
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    font-family: 'Gamja Flower', cursive;
     padding: 30px;/*spaces the words from the border*/
     margin-right: 15px;
-    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;  
+    font-size: 22px;                  
+    line-height: 1.8;                  
+    letter-spacing: 0.5px;             
+    word-spacing: 1px;                 
+    color: #333333;   
 }
 article p{
-    background-color: #95a54b71;
+    background-color: #f0ac4ec4;
     margin-top: -10px;
     margin-left: 80px;
     margin-right: 80px;
@@ -58,15 +64,15 @@ article p{
 }
 
 h2{/*defult for the article headers(and all h2)*/
-    font-family:'Gluten',cursive;
-    font-size: 70px;
-    background-color: #95a54be8;
+    font-family:'Fredoka',sans-serif;
+    font-size: 50px;
+    background-color: #D9534F;
     padding: 50px;
     text-align: center;
     border-radius: 10px;
     }
 hr{
-    border: 10px dotted #e6a518e8;
+    border: 10px dotted #D9534F;
     border-radius: 30%;/*curves the border*/
     border-left: none;/*removes the border from the left*/
     border-right: none;
@@ -79,10 +85,11 @@ hr{
 footer p{/*footer pararaph*/
     font-family:'Faustina',sans-serif;
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 30px;
+    color: #ffffff;
 }
 footer{
-    background-color: #a5701a86;
+    background-color: #A67C52;
     margin-top: 90px;
     text-align: center;
 }
@@ -91,24 +98,25 @@ footer{
     font-size: 50px;
     font-family: 'Short Stack', cursive;
     margin-right: 31%;
-    color: #9e571d;
+    color: #000000;
     text-decoration: underline 5px #7e4314;/*design for the underline of title*/
 }
 body{/*style for the basic webpages*/
-    background-color: #DDEB9D;
+    background-color: #F5E8C7;
     margin: 0;
     text-align: center;
 }
 .source a{/*sources defult */
     text-decoration: underline;
-    color: #64510fc1;
+    font-family: 'Nunito', cursive;
+    color: #8a6744;
     font-size: 35px;
 }
 .source a:hover{
-    color: #cd5002d2;
+    color: #D9534F;
 }
 img { /*defult settings for all images*/
-    background-color: #A0C878;
+    background-color: #efcb60be;
     color: #000;
     font-size: 50px;
 }
