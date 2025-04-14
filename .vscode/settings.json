@@ -1,9 +1,9 @@
 {
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.printWidth": 80,
-    "prettier.singleQuote": true,
-    "liveServer.settings.port": 5501
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "liveServer.settings.port": 5501
 }

@@ -9,332 +9,416 @@ School: Pembina Trails Collegiate (PTC)
 Date Last Modified:  2025-03-19-->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebProject2</title>
+    <!--fonts used in the website-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Faustina:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Chewy:regular"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Short+Stack:regular"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gamja+Flower:regular"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Schoolbell:regular"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebProject2</title>
-  <!--fonts used in the website-->
-  <link
-    href="https://fonts.googleapis.com/css?family=Faustina:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Chewy:regular" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Short+Stack:regular" rel="stylesheet" />
-  <link rel="stylesheet" href="CSS/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower:regular" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Schoolbell:regular" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700" rel="stylesheet" />
+    <style>
+      #historyhead {
+        margin-bottom: 0px;
+        margin-left: 30px;
+        margin-top: -30px;
+        width: 350px;
+      }
 
-  <style>
-    #historyhead {
-      margin-bottom: 0px;
-      margin-left: 30px;
-      margin-top: -30px;
-      width: 350px;
-    }
+      #negotiations {
+        width: 550px;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-    #negotiations {
-      width: 550px;
-      margin-top: 15%;
-      margin-left: auto;
-      margin-right: auto;
-    }
+      #Quicklinks {
+        margin-top: 0px;
+        background-color: #d9544f97;
+        justify-content: center;
+        gap: 10%;
+        display: grid;
+        grid-template-columns: repeat(3, 15%);
+        align-items: center;
+        height: 80px;
+        margin-bottom: 150px;
+      }
 
-    #Quicklinks {
-      margin-top: 150px;
-      background-color: #d9544f;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 100px;
-      margin-bottom: 150px;
-    }
+      .Quicklinks {
+        background-color: #e1c785;
+        border: 4px solid #983733;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000000a6;
+        font-family: cursive;
+        font-weight: 800;
+      }
 
-    .Quicklinks {
-      background-color: #FFD966;
-      border: 4px solid #983733;
-      border-radius: 20px;
-      padding: 15px;
-      text-align: center;
-      font-size: 35px;
-      text-decoration: none;
-      color: #A67C52;
-      font-family: cursive;
-      font-weight: 800;
-    }
+      .Quicklinks:hover {
+        background-color: #f0ac4e6b;
+        color: #704b0d;
+      }
 
-    .Quicklinks:hover {
-      background-color: #ffc60bd4;
-      color: #704b0d;
-    }
+      .communities h2 {
+        margin-bottom: 10px;
+        margin-left: 47%;
+        width: 44%;
+        margin-top: 15%;
+      }
 
-    .communities h2 {
-      margin-bottom: 0px;
-      margin-left: 47%;
-      width: 44%;
-      margin-top: 15%;
-    }
+      figure img {
+        width: 100%;
+        border: solid 15px #eb5a005b;
+        border-radius: 25%;
+      }
 
-    figure img {
-      width: 100%;
-      border: solid 15px #eb5a005b;
-      border-radius: 25%;
-    }
+      figcaption p {
+        margin-top: -2px;
+        background-color: #f5e8c7d6;
+        padding: 10px;
+        border: 4px solid #d9544f;
+        border-radius: 20%;
+        text-decoration: none;
+        color: #5d452d;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'nunito', cursive;
+      }
 
-    figcaption p {
-      margin-top: -2px;
-      background-color: #f5e8c7d6;
-      padding: 10px;
-      border: 4px solid #d9544f;
-      border-radius: 20%;
-      text-decoration: none;
-      color: #5d452d;
-      font-size: 40px;
-      text-align: center;
-      font-family: 'nunito', cursive;
-    }
+      .negotiations figcaption p {
+        margin-bottom: 15px;
+        margin-left: -147%;
+        color: #000000;
+        font-family: 'fredoka', cursive;
+        width: 386%;
+        background-color: #e37f7b;
+        margin-top: -2%;
+        text-decoration: none;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+        padding: 5px;
+      }
 
-    .negotiations figcaption p {
-      margin-bottom: 15px;
-      color: #000000;
-      font-family: 'fredoka', cursive;
-      width: 1140px;
-      background-color: #e37f7b;
-      margin-top: -2%;
-      text-decoration: none;
-      font-size: 20px;
-      align-items: center;
-      display: flex;
-      border-radius: 0px;
-      padding: 5px;
-      justify-content: center;
-    }
+      .negotiations a {
+        text-decoration: none;
+        color: #5d4037;
+        font-size: 20px;
+        text-align: center;
+      }
 
-    .negotiations a {
-      text-decoration: none;
-      color: #5D4037;
-      font-size: 20px;
-      text-align: center;
-    }
+      .negotiations a:hover {
+        text-decoration: underline;
+        color: #a11f1a;
+      }
 
-    .negotiations a:hover {
-      text-decoration: underline;
-      color: #a11f1a;
-    }
+      .negotiations-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        margin-top: -6%;
+        flex-wrap: wrap;
+      }
 
-    .negotiations-section {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 40px;
-      margin-top: -6%;
-      flex-wrap: wrap;
-    }
+      .negotiations img {
+        height: 520px;
+        border: solid 10px #d9544fac;
+        border-radius: 15px;
+        width: 50%;
+        border-top-right-radius: 0px;
+      }
 
-    .negotiations img {
-      height: 520px;
-      border: solid 10px #d9544fac;
-      border-radius: 15px;
-      width: 50%;
-      border-top-right-radius: 0px;
-    }
+      .negotiations p {
+        margin: 0%;
+        border: solid 10px #d9544fac;
+        width: 39%;
+        font-size: 150%;
+        border-radius: 15px;
+        border-top-left-radius: 0%;
+        padding: 2.9%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        text-align: center;
+        margin-top: 0%;
+      }
 
-    .negotiations p {
-      margin: 0px;
-      border: solid 10px #d9544fac;
-      width: 39%;
-      font-size: 24px;
-      border-radius: 15px;
-      border-top-left-radius: 0px;
-      padding: 41px;
-      text-align: center;
-      margin-top: -.5%;
-    }
+      .intro-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4%;
+        margin-top: 80px;
+        background-color: #efcb60be;
+        flex-wrap: wrap;
+      }
 
-    .intro-section {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 40px;
-      margin-top: 80px;
-      background-color: #efcb60be;
-      flex-wrap: wrap;
-    }
+      .intro-section img {
+        width: 49%;
+        border-radius: 15px;
+        height: 95%;
+        border: 6px solid #d9544f;
+      }
 
-    .intro-section img {
-      width: 49%;
-      border-radius: 15px;
-      height: 475px;
-      border: 6px solid #d9544f;
-    }
+      #intro-source a {
+        text-decoration: underline;
+        font-family: 'Nunito', cursive;
+        color: #8a6744;
+        font-size: 15px;
+      }
 
-    #intro-source a {
-      text-decoration: underline;
-      font-family: 'Nunito', cursive;
-      color: #8a6744;
-      font-size: 15px;
-    }
+      #intro-source {
+        font-size: 15px;
+        margin-top: -2%;
+        align-items: center;
+        display: flex;
+        border-radius: 0px;
+        width: 49%;
+        border: none;
+        padding: 5px;
+        justify-content: center;
+        background-color: #f0ac4e86;
+      }
 
-    #intro-source {
-      font-size: 15px;
-      margin-top: -2%;
-      align-items: center;
-      display: flex;
-      border-radius: 0px;
-      width: 49%;
-      border: none;
-      padding: 5px;
-      justify-content: center;
-      background-color: #f0ac4e86;
-    }
+      #intro-source a:hover {
+        color: #d9534f;
+      }
 
-    #intro-source a:hover {
-      color: #D9534F;
-    }
+      .intro-section p {
+        width: 40%;
+        font-size: 24px;
+        background-color: #f5e8c7af;
+        border-radius: 20px;
+        padding: 45px;
+        padding-top: 11%;
+        padding-bottom: 10%;
+        text-align: center;
+        border: 6px solid #d9544fde;
+      }
 
-    .intro-section p {
-      width: 40%;
-      font-size: 24px;
-      background-color: #f5e8c7af;
-      border-radius: 20px;
-      padding: 41px;
-      text-align: center;
-      border: 6px solid #d9544fde;
-    }
+      section img {
+        /*style for the treaty map*/
+        width: 800px;
+        border: solid 15px #d9534f;
+        border-radius: 25%;
+      }
 
-    section img {
-      /*style for the treaty map*/
-      width: 800px;
-      border: solid 15px #D9534F;
-      border-radius: 25%;
-    }
+      section {
+        /*section for the treaty map*/
+        background-color: #efcb60be;
+        padding: 50px;
+        width: 92%;
+      }
 
-    section {
-      /*section for the treaty map*/
-      background-color: #efcb60be;
-      padding: 50px;
-      width: 92%;
-    }
+      hr {
+        margin-top: 150px;
+        /*removes the space between the hr as the defult*/
+      }
 
-    hr {
-      margin-top: 150px;
-      /*removes the space between the hr as the defult*/
-    }
+      .Treatyimg img:hover {
+        background-color: #c19b285c;
+        border: 3px solid #d1a1119c;
+      }
 
-    .Treatyimg img:hover {
-      background-color: #c19b285c;
-      border: 3px solid #d1a1119c;
-    }
+      .Treatyimg img {
+        background-color: #d9534f;
+        border: 3px solid #b54642;
+      }
+    </style>
+  </head>
 
-    .Treatyimg img {
-      background-color: #D9534F;
-      border: 3px solid #b54642;
-    }
-  </style>
-</head>
-
-<body>
-  <nav class="navigation">
-    <a href="index.html" tabindex="1">Home</a>
-    <a style="margin: auto ;" href="More.html" tabindex="2">More</a>
-    <h1 id="Title">Treaty One 4 <span style="color: #ffca0b;"><i>Kids</i></span></h1>
-  </nav><!--Quick links to quickly navigate page-->
-  <div id="Quicklinks">
-    <a class="Quicklinks" href="#historyhead" tabindex="3">History</a>
-    <a class="Quicklinks" href="#negotiations" tabindex="4">Negotiations</a>
-    <a class="Quicklinks" href="#communities" tabindex="5">Communities</a>
-  </div>
-  <main>
-    <div class="intro-section">
-      <img src="images.html/Treaty People.jpg" alt="Book Cover of (We are treaty people)" tabindex="6">
-      <p>Welcome to our Treaty One website! Treaty One was the first treaty made in what is now Manitoba. It was an
-        important agreement between the Canadian government and Indigenous Peoples. This website will help you learn
-        about where it happened, the communities involved, and why it still matters today.</p>
-      <p id="intro-source" tabindex="7">
-        Img src: <a href="https://www.goodreads.com/book/show/32319221-we-are-all-treaty-people"
-          target="_blank">Source</a></p>
+  <body>
+    <nav class="navigation">
+      <a href="index.html" tabindex="1">Home</a>
+      <a style="margin: auto" href="More.html" tabindex="2">More</a>
+      <h1 id="Title">
+        Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
+      </h1>
+    </nav>
+    <!--Quick links to quickly navigate page-->
+    <div id="Quicklinks">
+      <a class="Quicklinks" href="#historyhead" tabindex="3">History</a>
+      <a class="Quicklinks" href="#negotiations" tabindex="4">Negotiations</a>
+      <a class="Quicklinks" href="#communities" tabindex="5">Communities</a>
     </div>
-    <hr style="border-bottom: none;">
-    <article>
-      <h2 id="historyhead" tabindex="8">History</h2>
-      <p style="margin-top: 0px;" class="source" tabindex="9">Treaty One was an agreement made on August 3, 1871,
-        between the First Nations
-        people and the Canadian government. At first, it seemed like a good deal as the government promised the First
-        Nation people food, supplies, and land. They also promised each family of five 160 acres to live and farm on.
-        But soon after the treaty was signed, the Indigenous people realized they didn’t get everything they were
-        promised. They told the Canadian government, but their voices went unheard as settlers kept moving onto their
-        land anyway. Even today, the broken promises from Treaty One are still talked about as people are still trying
-        to fix the mistakes that were made so long ago.
-        <a href="https://kids.kiddle.co/Treaty_1" target="_blank" tabindex="10">Source</a>
-      </p>
-    </article>
-    <hr style="border-bottom: none;">
-    <section>
-      <figure>
-        <img src="images.html/TreatyMapCanada-.jpeg" alt="Detailed Map Showing the Treaties in Canada" tabindex="11">
-        <br />
-        <figcaption>
-          <p class="source">
-            <a style="text-decoration: none;"
-              href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/" target="_blank"
-              tabindex="12">Treaty map of Canada</a>
-          </p>
-        </figcaption>
-      </figure>
-    </section>
-    <hr style="border-top: none;">
-    <article>
-      <div class="negotiations">
-        <h2 id="negotiations" tabindex="13">Negotiations</h2>
-        <div class="negotiations-section">
-          <img src="images.html/lower fort gary.jpg"
-            alt="Aerial view of Lower Fort Garry"><!--image of where the negotiation took place-->
-          <p class="source" tabindex="15">Treaty One was negotiated in 1871 at Lower Fort
-            Garry, located along the Red River in Manitoba. The meeting brought together leaders from the First Nations
-            and government representatives, including Alexander Morris, the Canadian government’s representative. They
-            discussed sharing the land and what the government would provide in return for the land.
-          </p>
-          <figcaption><!--Caption for the image-->
-            <p>
-              Img src:
-              <a href="https://mhs.mb.ca/docs/sites/lowerfortgarry.shtml" target="_blank" tabindex="14">Source</a>
-              Article src:
-              <a href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/" target="_blank"
-                tabindex="16"> Source</a>
-            </p>
-          </figcaption>
-        </div>
-      </div>
-    </article>
-    <div class="Treatyimg">
-      <hr style="border-bottom: none; margin-bottom:-50px">
-      <!--hr style to remove bottom border and space from the bottom-->
-      <a href="https://treaty1.ca/t1-153/" target="_blank" tabindex="17">
-        <img src="images.html/Treaty one logo.png" alt="Treaty One Logo"></a><!--takes user to the treatyone page-->
-      <hr style="border-top: none; margin-top: -50px;margin-bottom: -40px;">
-    </div>
-    <!--Section for the communities aspect-->
-    <article>
-      <div class="communities">
-        <h2 id="communities" tabindex="18">Communities</h2>
-        <p class="source" style="text-align: left;" tabindex="19">Treaty One is connected to the Cree, Saulteaux, and
-          Assiniboine communities because it was an agreement with the Canadian government about sharing their land.
-          These communities lived closely with nature, using the land for food, clothing, and shelter. After the treaty
-          was signed, the government took control of a big area of the land, leaving the First Nations with less space
-          and fewer resources. This change forced them to adapt to a new way of life, and they had to find new ways to
-          live with the less land and fewer resources they had.
-          <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank" tabindex="20">
-            Source</a>
+    <main>
+      <div class="intro-section">
+        <img
+          src="images.html/Treaty People.jpg"
+          alt="Book Cover of (We are treaty people)"
+          tabindex="6"
+        />
+        <p>
+          Welcome to our Treaty One website! Treaty One was the first treaty
+          made in what is now Manitoba. It was an important agreement between
+          the Canadian government and Indigenous Peoples. This website will help
+          you learn about where it happened, the communities involved, and why
+          it still matters today.
+        </p>
+        <p id="intro-source" tabindex="7">
+          Img src:
+          <a
+            href="https://www.goodreads.com/book/show/32319221-we-are-all-treaty-people"
+            target="_blank"
+            >Source</a
+          >
         </p>
       </div>
-    </article>
-  </main>
-  <!--Footer at the bottom of page-->
-  <footer>
-    <p><i>© 2025 Treaty One. All rights reserved. </i><a href="index.html" tabindex="21">Home</a></p>
-  </footer>
-</body>
-
+      <hr style="border-bottom: none" />
+      <article>
+        <h2 id="historyhead" tabindex="8">History</h2>
+        <p style="margin-top: 0px" class="source" tabindex="9">
+          Treaty One was an agreement made on August 3, 1871, between the First
+          Nations people and the Canadian government. At first, it seemed like a
+          good deal as the government promised the First Nation people food,
+          supplies, and land. They also promised each family of five 160 acres
+          to live and farm on. But soon after the treaty was signed, the
+          Indigenous people realized they didn’t get everything they were
+          promised. They told the Canadian government, but their voices went
+          unheard as settlers kept moving onto their land anyway. Even today,
+          the broken promises from Treaty One are still talked about as people
+          are still trying to fix the mistakes that were made so long ago.
+          <br /><a
+            href="https://kids.kiddle.co/Treaty_1"
+            target="_blank"
+            tabindex="10"
+            >Source</a
+          >
+        </p>
+      </article>
+      <hr style="border-bottom: none" />
+      <section>
+        <figure>
+          <img
+            src="images.html/TreatyMapCanada-.jpeg"
+            alt="Detailed Map Showing the Treaties in Canada"
+            tabindex="11"
+          />
+          <br />
+          <figcaption>
+            <p class="source">
+              <a
+                style="text-decoration: none"
+                href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/"
+                target="_blank"
+                tabindex="12"
+                >Treaty map of Canada</a
+              >
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+      <hr style="border-top: none" />
+      <article>
+        <div class="negotiations">
+          <h2 id="negotiations" tabindex="13">Negotiations</h2>
+          <div class="negotiations-section">
+            <img
+              src="images.html/lower fort gary.jpg"
+              alt="Aerial view of Lower Fort Garry"
+            /><!--image of where the negotiation took place-->
+            <p class="source" tabindex="15">
+              Treaty One was negotiated in 1871 at Lower Fort Garry, located
+              along the Red River in Manitoba. The meeting brought together
+              leaders from the First Nations and government representatives,
+              including Alexander Morris, the Canadian government’s
+              representative. They discussed sharing the land and what the
+              government would provide in return for the land.
+            </p>
+            <figcaption>
+              <!--Caption for the image-->
+              <p>
+                Img src:
+                <a
+                  href="https://mhs.mb.ca/docs/sites/lowerfortgarry.shtml"
+                  target="_blank"
+                  tabindex="14"
+                  >Source</a
+                >
+                Article src:
+                <a
+                  href="https://activehistory.ca/blog/2021/08/09/the-sesquicentennial-of-treaty-1/"
+                  target="_blank"
+                  tabindex="16"
+                >
+                  Source</a
+                >
+              </p>
+            </figcaption>
+          </div>
+        </div>
+      </article>
+      <div class="Treatyimg">
+        <hr style="border-bottom: none; margin-bottom: -50px" />
+        <!--hr style to remove bottom border and space from the bottom-->
+        <a href="https://treaty1.ca/t1-153/" target="_blank" tabindex="17">
+          <img src="images.html/Treaty one logo.png" alt="Treaty One Logo" /></a
+        ><!--takes user to the treatyone page-->
+        <hr style="border-top: none; margin-top: -50px; margin-bottom: -40px" />
+      </div>
+      <!--Section for the communities aspect-->
+      <article>
+        <div class="communities">
+          <h2 id="communities" tabindex="18">Communities</h2>
+          <p class="source" style="text-align: left" tabindex="19">
+            Treaty One is connected to the Cree, Saulteaux, and Assiniboine
+            communities because it was an agreement with the Canadian government
+            about sharing their land. These communities lived closely with
+            nature, using the land for food, clothing, and shelter. After the
+            treaty was signed, the government took control of a big area of the
+            land, leaving the First Nations with less space and fewer resources.
+            This change forced them to adapt to a new way of life, and they had
+            to find new ways to live with the less land and fewer resources they
+            had.
+            <br /><a
+              href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
+              target="_blank"
+              tabindex="20"
+            >
+              Source</a
+            >
+          </p>
+        </div>
+      </article>
+    </main>
+    <!--Footer at the bottom of page-->
+    <footer>
+      <p>
+        <i>© 2025 Treaty One| Made for kids in K–3 | </i
+        ><a href="index.html" tabindex="14">Homepage</a>
+      </p>
+      <!--copyright and link back to the homepage-->
+    </footer>
+  </body>
 </html>
