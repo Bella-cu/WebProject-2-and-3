@@ -8,7 +8,6 @@ figcaption {
   font-family: 'fredoka', cursive;
 }
 .navigation {
-  overflow: hidden;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   height: 70px;
@@ -27,29 +26,60 @@ footer a:hover {
   color: #f4c76e;
   text-decoration: underline;
 }
-.navigation a {
-  /*design for the naviation link*/
-  text-decoration: none;
-  color: #000000a6;
-  font-family: 'Short Stack', cursive;
-  font-size: 30px;
-  background-color: #e1c785;
-  padding: 15px;
-  border: 5px solid #a53c38;
-  border-radius: 20px;
-  font-weight: 950;
-  letter-spacing: 2px;
-  margin-right: -13%;
+nav img {
+  /*defult settings for the images in the nav bar*/
+  border-radius: 50%;
+  padding: 10%;
+  background-color: #9d3e3b;
+  border: 3px solid #772e2c;
+}
+#home {
+  margin-left: 30%;
+}
+nav a {
+  margin-right: -20%;
+}
+nav img:hover {
+  transform: scale(1.2); /*makes the image bigger when hovered*/
+  transition: all 0.3s ease-in-out;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.navigation a:hover {
-  /*design for when link is hovered on*/
-  background-color: #f0ad4e;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown img {
+  width: 100px; /* size of the image */
+  cursor: pointer;
 }
 p {
   padding: 30px; /*spaces the words from the border*/
   margin-right: 15px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'nunito', cursive;
   font-size: 22px;
   line-height: 1.8;
   letter-spacing: 0.5px;
@@ -67,7 +97,7 @@ article p {
 
 h2 {
   /*defult for the article headers(and all h2)*/
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Fredoka', cursive;
   font-size: 50px;
   background-color: #d9534f;
   padding: 50px;
@@ -87,7 +117,7 @@ hr {
 }
 footer p {
   /*footer pararaph*/
-  font-family: 'Faustina', sans-serif;
+  font-family: 'Faustina';
   margin-bottom: 0px;
   font-size: 30px;
   color: #ffffff;
