@@ -86,9 +86,9 @@ Date Last Modified:  2025-03-19-->
 
       .Quicklinks:hover {
         background-color: #f0ac4e6b;
-        color: #704b0d;
+        transition: all 0.3s ease-in; /*adds a transition to the hover fade in*/
+        transform: scale(1.1); /*makes the image bigger when hovered on*/
       }
-
       .communities h2 {
         margin-bottom: 10px;
         margin-left: 47%;
@@ -260,20 +260,34 @@ Date Last Modified:  2025-03-19-->
 
   <body>
     <nav class="navigation">
-      <a href="index.html" tabindex="1">
-        <img id="home" src="images.html/More.png" alt="Homepage Icon"
-      /></a>
-      <a style="margin: auto" href="More.html" tabindex="2">
-        <img src="images.html/Home.png" alt="Icon for More Information" />
-      </a>
-      <div class="dropdown">
-        <img src="images.html/More.png" alt="Icon for more Information" />
-        <div class="dropdown-content">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+      <div class="dropdwn" tabindex="1">
+        <img
+          id="dropdwn-img"
+          src="images.html/More.png"
+          alt="Icon for more Information"
+        />
+        <div id="dropdwn-content" class="dropdwn-content">
+          <a id="more" href="More.html">Learn More</a>
+          <a
+            href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
+            target="_blank"
+            >More about Treaty 1</a
+          >
         </div>
       </div>
+      <script>
+        /*The action for clicking the img to show content as refers the the function given*/
+        document.getElementById('dropdwn-img').onclick = function () {
+          myFunction();
+        };
+        /*(The function taht is being refered) toggles between showing the content when clicked*/
+        function myFunction() {
+          document.getElementById('dropdwn-content').classList.toggle('show');
+        }
+      </script>
+      <a style="margin: auto" href="index.html" tabindex="2">
+        <img src="images.html/Home.png" alt="Homepage Icon" />
+      </a>
       <h1 id="Title">
         Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
       </h1>
