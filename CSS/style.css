@@ -1,9 +1,3 @@
-/*Colors used in the website*/
-/*#71BA6A*/
-/*#589153*/
-/*#86DE7E*/
-/*#3F693C*/
-/*#274024*/
 figcaption {
   font-family: 'fredoka', cursive;
 }
@@ -14,6 +8,7 @@ figcaption {
   padding: 20px;
   background-color: #d9534f;
   display: flex; /*lays items in  row within the class*/
+  justify-content: center;
   align-items: center; /*aligns items vertically in the center*/
   border-bottom: solid 2px #eb5a006c;
 }
@@ -35,6 +30,9 @@ nav img {
   margin-left: -430%;
 }
 #dropdwn-img {
+  margin-left: 45%;
+}
+#dropdwn-img a {
   margin-left: 45%;
 }
 nav img:hover {
@@ -78,7 +76,7 @@ nav img:hover {
   border-bottom-right-radius: 0px;
   border-bottom: 2px solid #a67c52;
 }
-.show {
+.dropdwn-content.show {
   display: block;
 }
 .dropdwn-content :hover {
@@ -91,7 +89,7 @@ p {
   margin-right: 15px;
   font-family: 'nunito', cursive;
   font-size: 22px;
-  line-height: 1.8;
+  line-height: 200%;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   text-align: left;
@@ -141,11 +139,13 @@ footer {
 
 #Title {
   /*style for the websites name*/
-  font-size: 50px;
+  font-size: 3.2rem;
   font-family: 'Short Stack', cursive;
-  margin-right: 31%;
+  margin-right: 28%;
   color: #000000;
-  text-decoration: underline 5px #7e4314; /*design for the underline of title*/
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline 5px #983733;; /*design for the underline of title*/
 }
 body {
   /*style for the basic webpages*/
@@ -158,7 +158,7 @@ body {
   text-decoration: underline;
   font-family: 'Nunito', cursive;
   color: #8a6744;
-  font-size: 35px;
+  font-size: 22px;
 }
 .source a:hover {
   color: #d9534f;
@@ -167,5 +167,5 @@ img {
   /*defult settings for all images*/
   background-color: #efcb60be;
   color: #000;
-  font-size: 50px;
+  font-size: 22px;
 }
