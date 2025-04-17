@@ -63,8 +63,9 @@
 
         .relevancy figcaption {
             font-size: 22px;
-            margin-bottom: -15px;
-            padding: 4px;
+            margin-bottom: -16px;
+            padding: 5px;
+            padding-right: 2%;
             color: #000000;
             font-family: 'fredoka', cursive;
             text-align: left;
@@ -248,31 +249,44 @@
 
 <body>
     <nav class="navigation">
-        <div class="dropdwn" tabindex="1">
-            <img id="dropdwn-img" src="images.html/More.png" alt="Icon for more Information" />
-            <div id="dropdwn-content" class="dropdwn-content">
-                <a id="more" href="More.html">Learn More</a>
-                <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">More about
-                    Treaty 1</a>
-            </div>
+        <div class="dropdwn">
+          <img
+            id="dropdwn-img"
+            src="images.html/More.png"
+            alt="Icon for more Information"
+            onclick="toggleDropdwn()"
+          />
+          <div tabindex="1" id="dropdwn-content" class="dropdwn-content">
+            <a tabindex="2" id="more" href="More.html">Learn More</a>
+            <a
+              tabindex="3"
+              href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
+              target="_blank"
+              >More about Treaty 1</a
+            >
+          </div>
         </div>
         <script>
-            /*The action for clicking the img to show content as refers the the function given*/
-            document.getElementById('dropdwn-img').onclick = function () {
-                myFunction();
-            };
-            /*(The function taht is being refered) toggles between showing the content when clicked*/
-            function myFunction() {
-                document.getElementById('dropdwn-content').classList.toggle('show');
-            }
+          /*The action for clicking the img to show content as refers the the function given*/
+          document.getElementById('dropdwn-img').onclick = function () {
+            myFunction();
+          };
+          /*(The function taht is being refered) toggles between showing the content when clicked*/
+          function myFunction() {
+            document.getElementById('dropdwn-content').classList.toggle('show');
+          }
         </script>
-        <a style="margin: auto" href="index.html" tabindex="2">
+        <div id="home">
+          <a href="index.html" tabindex="4">
             <img src="images.html/Home.png" alt="Homepage Icon" />
-        </a>
-        <h1 id="Title">
+          </a>
+        </div>
+        <div id="Title">
+          <h1>
             Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
-        </h1>
-    </nav>
+          </h1>
+        </div>
+      </nav>
     <main>
         <figure style="margin: 0px;">
             <fieldset>

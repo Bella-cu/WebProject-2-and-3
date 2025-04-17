@@ -7,10 +7,9 @@ figcaption {
   height: 70px;
   padding: 20px;
   background-color: #d9534f;
-  display: flex; /*lays items in  row within the class*/
-  justify-content: center;
-  align-items: center; /*aligns items vertically in the center*/
   border-bottom: solid 2px #eb5a006c;
+  display: flex;
+  align-items: center;
 }
 footer a {
   color: #1d1205d2;
@@ -27,25 +26,38 @@ nav img {
   padding: 10%;
   background-color: #9d3e3b;
   border: 3px solid #772e2c;
-  margin-left: -430%;
+}
+div#home {
+  /*home button*/
+  margin-left: 10%;
+  margin-top: 0%;
+  position: absolute;
+}
+img#dropdwn-img {
+  /*drop down button*/
+  margin-left: 40%;
 }
 #dropdwn-img {
-  margin-left: 45%;
+  background-image: src('images.html/More.png');
 }
-#dropdwn-img a {
-  margin-left: 45%;
+button {
+  margin-left: 40%;
+  border-radius: 50%;
+  padding: 10%;
+  background-color: #9d3e3b;
 }
-nav img:hover {
+nav img:hover,
+button:hover {
   transform: scale(1.2); /*makes the image bigger when hovered*/
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   box-shadow: 0px 0px 20px 5px #a13e3b; /*adds a shadow when hovered*/
 }
-.dropdwn {
+div.dropdwn {
   position: relative;
   display: inline-block;
 }
-.dropdwn-content {
+div.dropdwn-content {
   margin-top: 20%;
   margin-left: 80%;
   display: none;
@@ -57,7 +69,7 @@ nav img:hover {
   border-radius: 10px; /*curves the boder corners*/
 }
 
-.dropdwn-content a {
+div.dropdwn-content a {
   width: 82.3%;
   color: #000000a6;
   font-family: 'nunito', cursive;
@@ -69,17 +81,17 @@ nav img:hover {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-#dropdwn-content #more {
+div#dropdwn-content #more {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom: 2px solid #a67c52;
 }
-.dropdwn-content.show {
+div.dropdwn-content.show {
   display: block;
 }
-.dropdwn-content :hover {
+div.dropdwn-content :hover {
   background-color: #e9d187;
   text-decoration: underline;
   width: 82.3%; /*stops the hover from going over the background*/
@@ -137,15 +149,18 @@ footer {
   text-align: center;
 }
 
-#Title {
+div#Title {
   /*style for the websites name*/
   font-size: 3.2rem;
+  padding: 0%;
+  margin-left: -3%;
+  margin-right: auto;
+  width: 100%;
   font-family: 'Short Stack', cursive;
-  margin-right: 28%;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: underline 5px #983733;; /*design for the underline of title*/
+  text-decoration: underline 5px #983733; /*design for the underline of title*/
 }
 body {
   /*style for the basic webpages*/
