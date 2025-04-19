@@ -220,7 +220,13 @@
             border-color: #5e3a10e4;
             background-color: #0000002d;
             cursor: pointer;
+            text-decoration: underline;
             box-shadow: 0px 0px 5px 1px #5e3a10e4;
+        }
+
+        #submit:focus {
+            outline: revert;
+            text-decoration: underline;
         }
 
         .straight {
@@ -354,8 +360,8 @@
         <hr class="straight">
         <div class="form">
             <h3>What Would You Like Included?</h3>
-            <form action="More.html" method="post" target="_self">
-                <textarea id="input" name="input" tabindex="16" placeholder="Enter here..." required></textarea>
+            <form action="More.html" method="GET">
+                <textarea id=" input" name="input" tabindex="16" placeholder="Enter here..." required></textarea>
                 <button tabindex="17" id="submit" type="submit" value="submit">Submit</button>
             </form>
         </div>
