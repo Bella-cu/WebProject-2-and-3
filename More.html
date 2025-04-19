@@ -250,54 +250,44 @@
 <body>
     <nav class="navigation">
         <div class="dropdwn">
-          <img
-            id="dropdwn-img"
-            src="images.html/More.png"
-            alt="Icon for more Information"
-            onclick="toggleDropdwn()"
-          />
-          <div tabindex="1" id="dropdwn-content" class="dropdwn-content">
-            <a tabindex="2" id="more" href="More.html">Learn More</a>
-            <a
-              tabindex="3"
-              href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
-              target="_blank"
-              >More about Treaty 1</a
-            >
-          </div>
+            <button tabindex="1" id="dropdwn-img" onclick="myFunction()" aria-controls="dropdwn-content">
+                <img src="images.html/More.png" alt="Icon for more Information" />
+            </button>
+            <div id="dropdwn-content" class="dropdwn-content">
+                <a tabindex="2" id="more" href="More.html">Learn More</a>
+                <a tabindex="3" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
+                    target="_blank">More
+                    about Treaty 1</a>
+            </div>
         </div>
         <script>
-          /*The action for clicking the img to show content as refers the the function given*/
-          document.getElementById('dropdwn-img').onclick = function () {
-            myFunction();
-          };
-          /*(The function taht is being refered) toggles between showing the content when clicked*/
-          function myFunction() {
-            document.getElementById('dropdwn-content').classList.toggle('show');
-          }
+            /*(The function taht is being refered) toggles between showing the content when clicked*/
+            function myFunction() {
+                document.getElementById('dropdwn-content').classList.toggle('show');
+            }
         </script>
         <div id="home">
-          <a href="index.html" tabindex="4">
-            <img src="images.html/Home.png" alt="Homepage Icon" />
-          </a>
+            <a href="index.html" tabindex="4">
+                <img src="images.html/Home.png" alt="Homepage Icon" />
+            </a>
         </div>
         <div id="Title">
-          <h1>
-            Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
-          </h1>
+            <h1>
+                Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
+            </h1>
         </div>
-      </nav>
+    </nav>
     <main>
         <figure style="margin: 0px;">
             <fieldset>
                 <legend>
                     <h2 style="font-size: 60px; margin-top: 100px;">Modern Treaty One</h2>
                 </legend><!--Introduction for user to show its a new page-->
-                <img src="images.html/Modern1.jpg" alt="Indigenous person dressed in cultural attire" tabindex="2">
+                <img src="images.html/Modern1.jpg" alt="Indigenous person dressed in cultural attire" tabindex="5">
                 <figcaption><!--Caption for the image to display the source-->
                     <p class="source">
                         <a href="https://films.solutions/filmmaking-with-first-nations-a-journey-through-canadas-indigenous-communities/"
-                            target="_blank" tabindex="3">Source</a>
+                            target="_blank" tabindex="6">Source</a>
                     </p>
                 </figcaption>
             </fieldset>
@@ -305,9 +295,9 @@
         <hr class="default">
         <article>
             <div class="difference">
-                <h2 tabindex="4">What makes Treaty One different?</h2>
+                <h2 tabindex="7">What makes Treaty One different?</h2>
                 <br />
-                <p style="margin-top: -67px;" tabindex="5">Treaty One was the first treaty made between the Canadian
+                <p style="margin-top: -67px;" tabindex="8">Treaty One was the first treaty made between the Canadian
                     government and First Nation people in 1871, covering what is now Manitoba. The treaty was created in
                     the founding of Manitoba and the arrival of new people to inhabit the land. Treaty One was different
                     because it was the expectation for the treaties that followed after it, as in the following treaties
@@ -320,7 +310,7 @@
             </div>
         </article>
         <section>
-            <iframe src="https://www.youtube.com/embed/CISeEFTsgDA?si=kYh_fs97_tcPnWBE" tabindex="6"
+            <iframe src="https://www.youtube.com/embed/CISeEFTsgDA?si=kYh_fs97_tcPnWBE" tabindex="9"
                 title="What is Indigenous?" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen">
@@ -328,32 +318,32 @@
             <br /><br />
             <a id="iframetext"
                 href="https://www.youtube.com/watch?v=CISeEFTsgDA&embeds_referring_euri=http%3A%2F%2F127.0.0.1%3A5501%2F&source_ve_path=OTY3MTQ"
-                target="_blank" tabindex="7">Watch on youtube</a>
+                target="_blank" tabindex="10">Watch on youtube</a>
         </section>
         <article>
             <hr class="default">
             <div class="relevancy">
-                <h2 id="relevancy" tabindex="8">How is Treaty One used today?</h2>
+                <h2 id="relevancy" tabindex="11">How is Treaty One used today?</h2>
                 <figure>
                     <img src="images.html/Kapyong-Barracks-.png" alt="Kapyong Barracks Reserve Draft Master Plan">
                     <figcaption><!--Caption for the image-->
                         Img src:
                         <a href="https://lpband.ca/2022/12/naawi-oodena-officially-converted-to-joint-reserve-lands-to-become-the-largest-urban-reserve-in-manitoba/"
-                            tabindex="9" target="_blank">
+                            tabindex="12" target="_blank">
                             Source</a>
                         Article src:
                         <a href="https://manitoba-inc.ca/economic-prosperity-awaits-for-first-nation-development-of-urban-reserves-in-canada/"
-                            tabindex="10" target="_blank">
+                            tabindex="13" target="_blank">
                             Source</a>
                     </figcaption>
                 </figure>
                 <p id="source" style="text-align: left;">Treaty One is still affecting our lives as First Nations work
                     to strengthen their rights and grow their economies through urban reserves and development projects.
                     Urban reserves like the
-                    <!--links to find out more on the reserve--><a href="https://treaty1.ca/naawi-oodena/" tabindex="11"
+                    <!--links to find out more on the reserve--><a href="https://treaty1.ca/naawi-oodena/" tabindex="14"
                         target="_blank"> Kapyong Urban Reserve</a>, allow First Nations to build their own businesses
                     helping create income opportunities for their community. While businesses like the
-                    <a href="https://firstnationsgas.ca/band/long-plain-first-nation/" tabindex="12" target="_blank">
+                    <a href="https://firstnationsgas.ca/band/long-plain-first-nation/" tabindex="15" target="_blank">
                         Long Plain First Nation Gas Station</a> helps Treaty One communities grow. Projects like these
                     allow for First Nations to have more control over their land and the money made goes into health
                     care and education. Through these efforts, Treaty One continues to help First Nations get more
@@ -364,14 +354,14 @@
         <hr class="straight">
         <div class="form">
             <h3>What Would You Like Included?</h3>
-            <form action="More.html" method="post" target="_blank">
-                <textarea id="input" name="input" tabindex="13" placeholder="Enter here..." required></textarea>
-                <button id="submit" type="submit" value="submit">Submit</button>
+            <form action="More.html" method="post" target="_self">
+                <textarea id="input" name="input" tabindex="16" placeholder="Enter here..." required></textarea>
+                <button tabindex="17" id="submit" type="submit" value="submit">Submit</button>
             </form>
         </div>
     </main>
     <footer>
-        <p><i>© 2025 Treaty One| Made for kids in K–3 | </i><a href="index.html" tabindex="14">Homepage</a></p>
+        <p><i>© 2025 Treaty One| Made for kids in K–3 | </i><a href="index.html" tabindex="18">Homepage</a></p>
         <!--copyright and link back to the homepage-->
     </footer>
 </body>

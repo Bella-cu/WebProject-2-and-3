@@ -20,12 +20,14 @@ footer a:hover {
   color: #f4c76e;
   text-decoration: underline;
 }
+
 nav img {
   /*defult settings for the images in the nav bar*/
   border-radius: 50%;
   padding: 10%;
   background-color: #9d3e3b;
   border: 3px solid #772e2c;
+  display: block;  
 }
 div#home {
   /*home button*/
@@ -33,51 +35,55 @@ div#home {
   margin-top: 0%;
   position: absolute;
 }
-img#dropdwn-img {
-  /*drop down button*/
-  margin-left: 40%;
-}
-#dropdwn-img {
-  background-image: src('images.html/More.png');
-}
+
 button {
-  margin-left: 40%;
-  border-radius: 50%;
-  padding: 10%;
-  background-color: #9d3e3b;
+  padding: 0;
+  margin: 0; 
+  cursor: pointer;
+  width: auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  all:unset;
 }
-nav img:hover,
-button:hover {
+button#dropdwn-img {
+  /*style for the drop down button*/
+  position: relative;
+}
+
+
+nav :focus   {
+outline: revert;
+}
+nav img:hover{
   transform: scale(1.2); /*makes the image bigger when hovered*/
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   box-shadow: 0px 0px 20px 5px #a13e3b; /*adds a shadow when hovered*/
 }
-div.dropdwn {
-  position: relative;
-  display: inline-block;
-}
+
 div.dropdwn-content {
-  margin-top: 20%;
-  margin-left: 80%;
+  margin-top: 0.5%;
+  margin-left: 2.5%;
   display: none;
   position: absolute;
   border: 3px solid #a67c52;
   box-shadow: 0px 0px 16px 3px #664d34; /*adds a shadow to the drop down*/
   z-index: 1;
-  width: 420%;
   border-radius: 10px; /*curves the boder corners*/
 }
 
 div.dropdwn-content a {
-  width: 82.3%;
   color: #000000a6;
+  width: 100%;
   font-family: 'nunito', cursive;
   background-color: #fbe7ac;
   display: block;
   text-decoration: none;
   text-align: left;
   padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -91,11 +97,21 @@ div#dropdwn-content #more {
 div.dropdwn-content.show {
   display: block;
 }
-div.dropdwn-content :hover {
+div.dropdwn-content a:hover {
   background-color: #e9d187;
   text-decoration: underline;
-  width: 82.3%; /*stops the hover from going over the background*/
 }
+div.dropdwn-content #more a:hover {
+  background-color: #e9d187;
+  text-decoration: underline;
+}
+div.dropdwn-content a:focus {
+  border: 3px solid #a67c52;
+  display: block;
+  background-color: #e9d187;
+  text-decoration: underline;
+}
+
 p {
   padding: 30px; /*spaces the words from the border*/
   margin-right: 15px;
@@ -182,5 +198,5 @@ img {
   /*defult settings for all images*/
   background-color: #efcb60be;
   color: #000;
-  font-size: 22px;
+  font-size: 17px;
 }
