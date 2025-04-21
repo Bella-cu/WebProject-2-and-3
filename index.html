@@ -6,7 +6,7 @@ Teacher: Ms. Hoitink
 
 School: Pembina Trails Collegiate (PTC) 
 
-Date Last Modified:  2025-03-19-->
+Date Last Modified:  2025-04-21-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,222 +28,322 @@ Date Last Modified:  2025-03-19-->
   <link href="https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700" rel="stylesheet" />
 
   <style>
+    /* Styling for the "History" section header */
     #historyhead {
       margin-bottom: 0px;
+      /* Removes extra space below the header */
       margin-left: 30px;
+      /* Aligns the header slightly to the right */
       margin-top: -30px;
       width: 350px;
+      /* Sets a fixed width for the header */
     }
 
+    /* Styling for the "Negotiations" section header */
     #negotiations {
       width: 550px;
+      /* Sets a fixed width for the header */
       margin-top: 15%;
+      /* Adds space above the header */
       margin-left: auto;
+      /* Centers the header horizontally */
       margin-right: auto;
+      /* Centers the header horizontally */
       margin-bottom: 3%;
+      /* Adds space below the header */
     }
 
+    /* Quicklinks navigation bar design */
     #Quicklinks {
       margin-top: 0px;
-      background-color: #d9544f97;
+      /* Removes extra space above the navigation bar */
+      background-color: #d9544f7f;
+      /* Sets the background for quicklinks bar*/
       justify-content: center;
+      /* Centers the quick links horizontally */
       gap: 10%;
+      /* Adds space between the quick links */
       display: grid;
+      /* Uses a grid layout for the links */
       grid-template-columns: repeat(3, 15%);
+      /* Creates three equal columns (width) */
       align-items: center;
+      /* Vertically aligns the links */
       height: 80px;
+      /* Sets the height of the bar */
       margin-bottom: 150px;
+      /* Adds space below the bar */
     }
 
+    /* Styling for individual quick links */
     .Quicklinks {
       background-color: #e1c785;
+      /* Sets a light beige background for the links*/
       border: 4px solid #983733;
+      /* Adds a dark red border */
       border-radius: 20px;
+      /* Rounds the corners of the links */
       padding: 10px;
+      /* Adds space inside the links to seperate fro border*/
       text-align: center;
+      /* Centers the text inside the links */
       font-size: 20px;
+      /* Sets the font size */
       text-decoration: none;
+      /* Removes the underline from the links */
       color: #000000a6;
+      /* Sets the text color */
       font-family: cursive;
+      /* Uses a cursive font for the text to keep the font the text*/
       font-weight: 800;
+      /* Makes the text bolder */
     }
 
+    /* Hover effect for quick links */
     .Quicklinks:hover {
       background-color: #f0ac4e6b;
+      /* Changes the background color on hover */
       transition: all 0.3s ease-in;
       /*adds a transition to the hover fade in*/
       transform: scale(1.1);
-      /*makes the image bigger when hovered on*/
+      /*makes the link slightly bigger when hovered on*/
     }
 
+    /* design for the "Communities" section header */
     .communities h2 {
       margin-bottom: 10px;
+      /* Adds space below the header */
       margin-left: 47%;
+      /* Aligns the header more to the right */
       width: 44%;
       margin-top: 20%;
+      /* Adds space above the header */
     }
 
+    /* design for captions under images (index specific) */
     figcaption p {
       margin-top: -2px;
+      /* Removes extra space above the caption */
       background-color: #f5e8c7d6;
       padding: 10px;
+      /* Adds space inside the caption away from the border*/
       border: 4px solid #d9544f;
       border-radius: 20%;
+      /* Rounds the corners of the caption */
       text-decoration: none;
       color: #5d452d;
+      /* Sets a dark brown text color */
       font-size: 22px;
       text-align: center;
+      /* Centers the text */
       font-family: 'nunito', cursive;
+      /* Uses the Nunito font */
     }
 
+    /*"Negotiations" section */
     .negotiations figcaption p {
       margin-bottom: 20%;
+      /* Adds space below the caption */
       margin-left: -132.5%;
       color: #000000;
+      /* Sets the text color to black */
       font-family: 'fredoka', cursive;
       width: 357%;
+      /* Sets a wide width for the caption */
       background-color: #e37f7b;
       margin-top: -4%;
+      /* Removes extra space above the caption */
       text-decoration: none;
       font-size: 22px;
+      /* Sets the font size */
       border-radius: 0px;
       padding: 5px;
+      /* Adds space inside the caption */
     }
 
     .negotiations a {
       text-decoration: none;
+      /* Removes underline from links */
       color: #5d4037;
       font-size: 22px;
+      /* Sets the font size */
       text-align: center;
     }
 
     .negotiations a:hover {
       text-decoration: underline;
+      /* Sets the font size */
       color: #a11f1a;
     }
 
     .negotiations-section {
       display: flex;
+      /* flexbox layout */
       align-items: center;
+      /* Vertically aligns items */
       justify-content: center;
+      /* Centers items horizontally */
       padding: 40px;
       margin-top: -6%;
+      /* Pulls the section closer to the top */
       flex-wrap: wrap;
+      /* Allows items figcaption wrap into the next line */
     }
 
     .negotiations img {
       height: 520px;
+      /* Sets the height of the image */
       border: solid 10px #d9544fac;
       border-radius: 15px;
+      /* Rounds the corners of the image */
       width: 50%;
       border-top-right-radius: 0px;
+      /* Removes rounding on the top-right corner */
     }
 
     .negotiations p {
       margin: 0%;
+      /* Removes default margin */
       border: solid 10px #d9544fac;
       width: 39%;
+      /* Sets the width*/
       font-size: 22px;
       border-radius: 15px;
+      /* Rounds the corners of the paragraph */
       border-top-left-radius: 0%;
       padding: 3%;
+      /* Adds padding inside the paragraph */
       padding-top: 5.8%;
+      /* Adds extra padding to keep it squared to the image (same size-ish*/
       padding-bottom: 6%;
+      /* Adds extra padding to keep it squared to the image (same size-ish*/
       text-align: center;
       margin-top: 0%;
     }
 
     .intro-section {
       display: flex;
+      /* Uses a flexbox layout for alignment */
       align-items: center;
       justify-content: space-between;
+      /* Spreads items evenly with space between */
       padding: 4%;
       margin-top: 80px;
+      /* Adds space above the section */
       background-color: #efcb60be;
       flex-wrap: wrap;
+      /* Allows items to wrap to the next line if needed */
     }
 
     .intro-section img {
+      /* Image in the intro section (we are all treaty people*/
       width: 49%;
+      /* Sets the width of the image */
       border-radius: 15px;
       height: 95%;
+      /* Sets the height of the image */
       border: 6px solid #d9544f;
     }
 
     #intro-source a {
       text-decoration: underline;
+      /* Underlines the text */
       font-family: 'Nunito', cursive;
       color: #8a6744;
+      /* Sets a brownish text color */
       font-size: 15px;
     }
 
     #intro-source {
       font-size: 15px;
+      /* Sets the font size */
       margin-top: -1.7%;
       align-items: center;
+      /* Vertically centers items */
       display: flex;
       border-radius: 0px;
+      /* Removes rounded corners */
       width: 49%;
       border: none;
+      /* Removes the border */
       padding: 5px;
       justify-content: center;
+      /* Centers the content horizontally */
       background-color: #f0ac4e86;
     }
 
     #intro-source a:hover {
+      /* Hover effect for links in the introductory source section */
       color: #d9534f;
+      /* Changes the text color to red on hover */
     }
 
     .intro-section p {
+      /* Styling for paragraphs in the introductory section */
       width: 40%;
+      /* Sets the width of the paragraph */
       font-size: 22px;
       background-color: #f5e8c7af;
+      /* Sets the background for the paragraph */
       border-radius: 20px;
+      /* Rounds the corners of the paragraph */
       padding: 45px;
       padding-top: 10%;
+      /* Adds extra padding at the top */
       padding-bottom: 10.5%;
       text-align: center;
+      /* Centers the text */
       border: 6px solid #d9534f;
     }
 
     figure img {
       /*style for the treaty map*/
       width: 50%;
+      /* Sets the width of the image */
       border: solid 10px #d9534f;
       border-radius: 25%;
+      /* Rounds the corners of the image */
     }
 
     figure {
       /*section for the treaty map*/
       background-color: #efcb60be;
       padding: 40px;
+      /* Adds padding inside the section */
       margin-left: auto;
+      /* Centers the section horizontally */
       margin-right: auto;
+      /* Centers the section horizontally */
     }
 
     hr {
+      /* Styling for hr (horizontal rules) */
       margin-top: 150px;
       /*removes the space between the hr as the defult*/
     }
 
     .Treatyimg img:hover {
       background-color: #c19b285c;
+      /* Changes the background color on hover */
       border: 3px solid #d1a1119c;
+      /* Changes the border color on hover */
     }
 
     .Treatyimg img {
       background-color: #d9534f;
+      /* Sets a red background */
       border: 3px solid #b54642;
+      /* Adds a dark red border */
     }
   </style>
 </head>
 
 <body>
-  <nav class="navigation">
-    <div class="dropdwn">
+  <nav class="navigation"><!-- Navigation bar at the top of the page -->
+    <div class="dropdwn"><!-- Dropdown button for additional links -->
       <button tabindex="1" id="dropdwn-img" onclick="myFunction()" aria-controls="dropdwn-content">
         <img src="images.html/More.png" alt="Icon for more Information" />
-      </button>
+      </button><!-- Dropdown content with links -->
       <div id="dropdwn-content" class="dropdwn-content">
         <a tabindex="2" id="more" href="More.html">Learn More</a>
         <a tabindex="3" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">More
@@ -256,11 +356,13 @@ Date Last Modified:  2025-03-19-->
         document.getElementById('dropdwn-content').classList.toggle('show');
       }
     </script>
+    <!-- Home button linking back to the homepage -->
     <div id="home">
       <a href="index.html" tabindex="4">
         <img src="images.html/Home.png" alt="Homepage Icon" />
       </a>
     </div>
+    <!-- Title of the website -->
     <div id="Title">
       <h1>
         Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
@@ -276,21 +378,21 @@ Date Last Modified:  2025-03-19-->
   <main>
     <div class="intro-section">
       <img src="images.html/Treaty People.jpg" alt="Book Cover of (We are treaty people)" tabindex="8" />
-      <p>
+      <p><!-- Introductory paragraph about the website -->
         Welcome to our Treaty One website! Treaty One was the first treaty
         made in what is now Manitoba. It was an important agreement between
         the Canadian government and Indigenous Peoples. This website will help
         you learn about where it happened, the communities involved, and why
         it still matters today.
       </p>
-      <p id="intro-source">
+      <p id="intro-source"><!-- Source for the image in the intro section -->
         Img src:
         <a tabindex="9" href="https://www.goodreads.com/book/show/32319221-we-are-all-treaty-people"
           target="_blank">Source</a>
       </p>
     </div>
-    <hr style="border-bottom: none" />
-    <article>
+    <hr style="border-bottom: none" /><!--removes the botom border-->
+    <article><!-- Section for the history of Treaty One -->
       <h2 id="historyhead" tabindex="10">History</h2>
       <p style="margin-top: 0px" class="source" tabindex="11">
         Treaty One was an agreement made on August 3, 1871, between the First
@@ -307,7 +409,7 @@ Date Last Modified:  2025-03-19-->
       </p>
     </article>
     <hr style="border-bottom: none" />
-    <figure>
+    <figure><!-- Image of the treaty map of Canada-->
       <img src="images.html/TreatyMapCanada-.jpeg" alt="Detailed Map Showing the Treaties in Canada" tabindex="13" />
       <br />
       <figcaption>
@@ -318,7 +420,8 @@ Date Last Modified:  2025-03-19-->
         </p>
       </figcaption>
     </figure>
-    <hr style="border-top: none" />
+    <hr style="border-top: none" /><!--removes the space between the hr as the defult-->
+    <!-- Negotiations section -->
     <article>
       <div class="negotiations">
         <h2 id="negotiations" tabindex="15">Negotiations</h2>
@@ -347,6 +450,7 @@ Date Last Modified:  2025-03-19-->
         </div>
       </div>
     </article>
+    <!-- Treaty One logo with a link -->
     <div class="Treatyimg">
       <hr style="border-bottom: none; margin-bottom: -50px" />
       <!--hr style to remove bottom border and space from the bottom-->

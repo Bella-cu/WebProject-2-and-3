@@ -5,113 +5,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More</title>
+
+    <!-- Link to Google Fonts for the font styles used in the page -->
     <link
         href="https://fonts.googleapis.com/css?family=Faustina:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Chewy:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Short+Stack:regular" rel="stylesheet" />
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css"><!-- Link to the external CSS file -->
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Schoolbell:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700" rel="stylesheet" />
     <style>
-        #Intro {
-            margin: 15px;
-            width: 52%;
-            /*changes the width to 52%*/
-            height: 550px;
-            border: solid 6px #eb5a00b2;
-            border-radius: 15px;
-            float: left;
-            /*moves theimage to the left*/
-            margin-top: -5px;
-            /*reduces the space at the top*/
-            margin-bottom: 150px;
-            /*adds space at the bottom*/
-        }
-
         .difference {
             margin: 40px;
+            /* Adds space around the div*/
         }
 
         .difference h2 {
             margin-top: 300px;
+            /* Adds space above the heading */
             align-items: center;
         }
 
         figure img {
+            /* Styles for images inside figures*/
             border: 10px solid #F0AD4E;
+            /* Adds a 10px solid border*/
             border-radius: 10px;
             margin-top: auto;
+            /* Automatically adjusts the top margin */
         }
 
         figcaption p {
+            /* Styles for captions inside figures*/
             background-color: #F0AD4E;
+            /* Sets the background color */
             margin-top: -4px;
             margin-left: auto;
+            /* Centers the caption horizontally */
             width: 62%;
             margin-right: auto;
+            /* Centers the caption horizontally */
             border: 3px solid #c99144;
             border-radius: 10px;
+            /* Rounds the corners of the border */
             height: 20px;
             justify-content: center;
+            /* Centers the content horizontally */
             display: flex;
             align-items: center;
+            /* Centers the content vertically */
         }
 
         .relevancy figcaption {
             font-size: 22px;
+            /* Sets the font size */
             margin-bottom: -16px;
             padding: 5px;
+            /* Adds padding inside the caption */
             padding-right: 2%;
             color: #000000;
+            /* Sets the text color */
             font-family: 'fredoka', cursive;
             text-align: left;
+            /* Aligns the text to the left */
             margin-left: auto;
+            /* Centers the caption horizontally */
             margin-right: auto;
+            /* Centers the caption horizontally */
             width: 92%;
             background-color: #d9544fac;
+            /* Sets the background color */
             border: 3px solid #D9534F;
             text-decoration: none;
+            /* Removes text decoration */
         }
 
         .relevancy a {
             text-decoration: none;
+            /* Removes text decoration */
             color: #5D4037;
             font-size: 22px;
+            /* Sets the font size */
         }
 
         .relevancy a:hover {
             text-decoration: underline;
+            /* Underlines the text on hover */
             color: #a11f1a;
+            /* Changes the text color on hover */
         }
 
         .relevancy img {
             width: 53%;
+            /* Sets the width of the image */
             height: auto;
             border: solid 10px #d9544fac;
+            /* Adds a 10px solid border */
             border-radius: 15px;
             float: left;
-            /*moves it left*/
+            /*moves img left*/
             margin-top: -10px;
             margin-bottom: -2px;
+            /* Reduces space below the image */
             margin-left: 30px;
             margin-right: 15px;
+            /* Adds space to the right of the image */
         }
 
         #relevancy {
-            /*how is treaty one used today id */
+            /*how is treaty one used today h2 */
             margin-bottom: 0px;
+            /* Removes space below the element */
             width: 850px;
             margin-left: auto;
+            /* Centers the element horizontally */
             margin-right: auto;
+            /* Centers the element horizontally */
             margin-top: 250px;
         }
 
         .default {
             margin-top: 150px;
+            /* Adds space above the element */
             margin-bottom: -150px;
             /*removes empty space from the border*/
             border-bottom: none;
@@ -120,16 +139,20 @@
 
         iframe {
             width: 850px;
+            /* Sets the width of the iframe */
             height: 500px;
             border: 10px solid #D9534F;
             border-radius: 10px;
+            /* Rounds the corners of the border */
             margin-top: 50px;
+            /* Adds space above the iframe */
         }
 
         section {
             /*used to create the background of the iframe*/
             background-color: #efcb60be;
             height: 680px;
+            /* Sets the height of the section */
             margin: auto;
         }
 
@@ -146,119 +169,177 @@
             /*link for the youtube video*/
             text-decoration: underline;
             color: #A67C52;
+            /* Sets the text color */
             font-size: 30px;
             text-align: center;
+            /* Centers the text */
             font-family: 'nunito', cursive;
         }
 
         #iframetext:hover {
             color: #D9534F;
-            /*changes the youtube link*/
+            /*changes the youtube link color*/
         }
 
-        .form {
+        .form
+
+        /* Styles for the form div */
+            {
             height: 100%;
+            /* Sets the height to 100% of the div*/
             margin-top: -755px;
             border: 3px solid #D9534F;
             border-radius: 30px;
+            /* Rounds the corners of the border */
             width: 80%;
             margin-left: auto;
+            /* Centers the form horizontally */
             margin-right: auto;
+            /* Centers the form horizontally */
             background-color: #F0AD4E;
         }
 
-        h3 {
+        h3
+
+        /* Style for the form header */
+            {
             font-size: 40px;
+            /* Sets the font size */
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             text-align: center;
+            /* Centers the text */
             margin-top: 30px;
             font-family: 'fredoka', cursive;
+            /*changes the font to fredoka*/
             height: 100px;
             color: #5e3910d2;
         }
 
         textarea {
             resize: none;
+            /* Disables resizing */
             height: 150px;
             text-align: left;
+            /* Aligns the text to the left */
             width: 90%;
             margin-left: auto;
+            /* Centers the textarea horizontally */
             margin-right: auto;
+            /* Centers the textarea horizontally */
             border-radius: 10px;
             border: 3px solid #D9534F;
             font-size: 22px;
+            /* Sets the font size */
             margin-top: -70px;
             margin-bottom: 10px;
+            /* Adds space below the textarea */
             background-color: white;
             padding: 20px;
+            /* Adds padding inside the textarea */
             text-decoration: none;
+            /* Removes text decoration */
         }
 
-        textarea:focus {
+        textarea:focus
+
+        /* Style for the textarea when tabbed or clicked */
+            {
             outline: none;
+            /* Removes the default outline */
             border: 2px solid #000000;
+            /* Changes the border color */
             box-shadow: 0 0 5px #00000080;
+            /* Adds a shadow effect */
         }
 
-        #submit {
+        #submit
+
+        /* Styles for the submit button */
+            {
             margin-bottom: 20px;
+            /* Adds space below the button */
             margin-top: 20px;
             border: 3px solid #5e3a10e4;
+            /* Sets the border color */
             padding: 10px;
             border-radius: 10px;
             text-transform: capitalize;
+            /* Capitalizes the text */
             color: #55330d;
             font-size: 30px;
+            /* Sets the font size */
             text-align: center;
             letter-spacing: 3px;
+            /* Adds space between letters */
             font-family: 'fredoka', cursive;
             background-color: #efcb60be;
+            /* Sets the background color */
         }
 
         #submit:hover {
+            /* Styles for the submit button on hover */
             border-color: #5e3a10e4;
+            /* Changes the border color */
             background-color: #0000002d;
             cursor: pointer;
+            /* Changes the cursor to pointer */
             text-decoration: underline;
-            box-shadow: 0px 0px 5px 1px #5e3a10e4;
+            /* Underlines the text */
+            box-shadow: 0px 0px 5px 1px #5e3a1061;
+            /* Adds a shadow effect */
+            transition: all 0.3s ease-in-out;
+            /* Adds a transition effect */
+            transform: scale(1.15);
+            /* makes the button slighly bigger */
         }
 
         #submit:focus {
             outline: revert;
+            /* Reverts the outline to the default */
             text-decoration: underline;
+            /* Underlines the text */
         }
 
         .straight {
+            /*the hr line around the form*/
             border-top: 2px solid #D9534F;
+            /* Creates a straight line at the top */
             border-bottom: 2px solid #D9534F;
+            /* Creates a straight line at the bottom */
             height: 450px;
             margin-top: 200px;
+            /* Adds space above the hr */
             margin-bottom: 300px;
             border-radius: 0px;
             margin-left: auto;
+            /* Centers the hr horizontally */
             margin-right: auto;
+            /* Centers the hr horizontally */
         }
 
         #source a {
             text-decoration: underline;
+            /* Underlines the text */
             font-family: 'chewy', cursive;
             color: #A67C52;
+            /* Sets the text color */
             font-size: 22px;
         }
 
         #source a:hover {
             color: #D9534F;
+            /* Changes the text color on hover */
         }
     </style>
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="dropdwn">
+    <nav class="navigation"><!-- Navigation bar at the top of the page -->
+        <div class="dropdwn"><!-- Dropdown button for additional links -->
             <button tabindex="1" id="dropdwn-img" onclick="myFunction()" aria-controls="dropdwn-content">
                 <img src="images.html/More.png" alt="Icon for more Information" />
-            </button>
+            </button><!-- Dropdown content with links -->
             <div id="dropdwn-content" class="dropdwn-content">
                 <a tabindex="2" id="more" href="More.html">Learn More</a>
                 <a tabindex="3" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2"
@@ -272,11 +353,13 @@
                 document.getElementById('dropdwn-content').classList.toggle('show');
             }
         </script>
+        <!-- Home button linking back to the homepage -->
         <div id="home">
             <a href="index.html" tabindex="4">
                 <img src="images.html/Home.png" alt="Homepage Icon" />
             </a>
         </div>
+        <!-- Title of the website -->
         <div id="Title">
             <h1>
                 Treaty One 4 <span style="color: #ffca0b"><i>Kids</i></span>
@@ -284,9 +367,10 @@
         </div>
     </nav>
     <main>
+        <!-- introduction img -->
         <figure style="margin: 0px;">
-            <fieldset>
-                <legend>
+            <fieldset><!-- Fieldset to group the image and caption -->
+                <legend><!-- Legend to provide a title for the fieldset -->
                     <h2 style="font-size: 60px; margin-top: 100px;">Modern Treaty One</h2>
                 </legend><!--Introduction for user to show its a new page-->
                 <img src="images.html/Modern1.jpg" alt="Indigenous person dressed in cultural attire" tabindex="5">
@@ -298,11 +382,11 @@
                 </figcaption>
             </fieldset>
         </figure>
-        <hr class="default">
+        <hr class="default"><!-- line to separate sections -->
         <article>
-            <div class="difference">
+            <div class="difference"><!-- Div to contain the content for what makes treaty one diffrent -->
                 <h2 tabindex="7">What makes Treaty One different?</h2>
-                <br />
+                <br /><!-- Adds space between the heading and the content -->
                 <p style="margin-top: -67px;" tabindex="8">Treaty One was the first treaty made between the Canadian
                     government and First Nation people in 1871, covering what is now Manitoba. The treaty was created in
                     the founding of Manitoba and the arrival of new people to inhabit the land. Treaty One was different
@@ -315,22 +399,22 @@
                     government worked harder to make sure both sides fully understood what was being talked about.</p>
             </div>
         </article>
-        <section>
+        <section><!-- Section to contain the video -->
             <iframe src="https://www.youtube.com/embed/CISeEFTsgDA?si=kYh_fs97_tcPnWBE" tabindex="9"
                 title="What is Indigenous?" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen">
             </iframe>
             <br /><br />
-            <a id="iframetext"
+            <!-- Link to the video on YouTube --><a id="iframetext"
                 href="https://www.youtube.com/watch?v=CISeEFTsgDA&embeds_referring_euri=http%3A%2F%2F127.0.0.1%3A5501%2F&source_ve_path=OTY3MTQ"
                 target="_blank" tabindex="10">Watch on youtube</a>
         </section>
         <article>
-            <hr class="default">
-            <div class="relevancy">
-                <h2 id="relevancy" tabindex="11">How is Treaty One used today?</h2>
-                <figure>
+            <hr class="default"><!-- hr to separate sections -->
+            <div class="relevancy"><!-- Div to contain the content for how treaty one is used today -->
+                <h2 id="relevancy" tabindex="11">How is Treaty One used today?</h2><!-- Heading for the section -->
+                <figure><!-- Figure to contain the image and caption -->
                     <img src="images.html/Kapyong-Barracks-.png" alt="Kapyong Barracks Reserve Draft Master Plan">
                     <figcaption><!--Caption for the image-->
                         Img src:
@@ -343,6 +427,7 @@
                             Source</a>
                     </figcaption>
                 </figure>
+                <!-- paragraph to explain how Treaty One is used today -->
                 <p id="source" style="text-align: left;">Treaty One is still affecting our lives as First Nations work
                     to strengthen their rights and grow their economies through urban reserves and development projects.
                     Urban reserves like the
@@ -357,19 +442,21 @@
                 </p>
             </div>
         </article>
-        <hr class="straight">
-        <div class="form">
-            <h3>What Would You Like Included?</h3>
-            <form action="More.html" method="GET">
-                <textarea id=" input" name="input" tabindex="16" placeholder="Enter here..." required></textarea>
-                <button tabindex="17" id="submit" type="submit" value="submit">Submit</button>
+        <hr class="straight"><!-- hr to separate sections -->
+        <div class="form"><!-- Div to contain the form-->
+            <h3>What Would You Like Included?</h3><!-- Header for the form -->
+            <form action="More.html" method="GET"><!-- Form to collect user input -->
+                <textarea id=" input" name="input" tabindex="16" placeholder="Enter here..."
+                    required></textarea><!-- Textarea for user input -->
+                <button tabindex="17" id="submit" type="submit"
+                    value="submit">Submit</button><!-- Submit button to send the form info -->
             </form>
         </div>
     </main>
-    <footer>
+    <footer><!-- Footer section -->
         <p><i>© 2025 Treaty One| Made for kids in K–3 | </i><a href="index.html" tabindex="18">Homepage</a></p>
         <!--copyright and link back to the homepage-->
     </footer>
 </body>
 
-</html>
+</html><!-- End of HTML document -->

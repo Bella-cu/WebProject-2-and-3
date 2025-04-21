@@ -1,202 +1,313 @@
+/*
+Multi-line CSS comment about the color scheme.
+
+Color Family: Analogus
+
+Primary Color: Warm Red – #D9534F  
+Secondary Color: Rusty Orange – #F0AD4E 
+Accent Color 1: Golden Yellow – #FFD966 
+Neutral Color 2: Soft Brown – #A67C52 
+Neutral Color 3: Sandy Beige – #F5E8C7 
+
+I chose this Analogous mixture of colors because they represent the connection to land when talking about treaties.
+The colors are warm, natural and respectful, which reflect the treaties more naturally as opposed to using brighter shades,
+which would take away from audiences ideal of an “authentic” website.
+The warm red and rusty orange stand out in a calm way while the golden yellow and soft brown add variation and depth without being distracting,
+and lastly the sandy beige as the background ties everything together as it's not too light as just white,
+and not too dark but somewhere in the middle where it complements the other colors/shades of the website.
+*/
+
+
 figcaption {
+  /* Style for the figcaptions*/
   font-family: 'fredoka', cursive;
 }
+
 .navigation {
+  /* Navigation bar*/
   border-top-left-radius: 20px;
+  /*curves the boder corners*/
   border-top-right-radius: 20px;
   height: 70px;
+  /*height of the nav bar*/
   padding: 20px;
   background-color: #d9534f;
+  /*background color of the nav bar*/
   border-bottom: solid 2px #eb5a006c;
   display: flex;
+  /*display the nav bar as a flex box*/
   align-items: center;
+  /*aligns the items in the center*/
 }
+
 footer a {
   color: #1d1205d2;
   text-decoration: none;
+  /*removes the underline from the links*/
   font-size: 30px;
 }
+
 footer a:hover {
   color: #f4c76e;
+  /*changes the color of the links when hovered*/
   text-decoration: underline;
+  /*adds an underline when hovered*/
 }
 
 nav img {
   /*defult settings for the images in the nav bar*/
   border-radius: 50%;
   padding: 10%;
+  /*spaces the images from the border*/
   background-color: #9d3e3b;
   border: 3px solid #772e2c;
-  display: block;  
+  /*adds a border to the images*/
+  display: block;
+  font-size: 17px;
 }
+
 div#home {
   /*home button*/
-  margin-left: 10%;
+  margin-left: 14%;
+  /*spaces the home button from the left*/
   margin-top: 0%;
   position: absolute;
+  /*positions the home button*/
 }
 
 button {
   padding: 0;
-  margin: 0; 
+  /*removes space from the border*/
+  margin: 0;
   cursor: pointer;
+  /*changes the cursor to a pointer when hovered*/
   width: auto;
   border: none;
+  /*removes the border from the button*/
   display: flex;
   justify-content: center;
-  all:unset;
+  /*aligns the items in the center*/
+  all: unset;
+  /*removes all the default settings from the button*/
 }
+
 button#dropdwn-img {
   /*style for the drop down button*/
   position: relative;
+  /*positions the drop down button*/
 }
 
 
-nav :focus   {
-outline: revert;
+nav :focus {
+  outline: revert;
+  /*removes the outline from the images when focused*/
 }
-nav img:hover{
-  transform: scale(1.2); /*makes the image bigger when hovered*/
+
+nav img:hover {
+  transform: scale(1.2);
+  /*makes the image bigger when hovered*/
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  box-shadow: 0px 0px 20px 5px #a13e3b; /*adds a shadow when hovered*/
+  box-shadow: 0px 0px 20px 5px #a13e3b;
+  /*adds a shadow when hovered*/
 }
 
 div.dropdwn-content {
   margin-top: 0.5%;
+  /*spaces the drop down from the top*/
   margin-left: 2.5%;
   display: none;
+  /*hides the drop down by default*/
   position: absolute;
   border: 3px solid #a67c52;
-  box-shadow: 0px 0px 16px 3px #664d34; /*adds a shadow to the drop down*/
+  /*adds a border to the drop down*/
+  box-shadow: 0px 0px 16px 3px #664d34;
+  /*adds a shadow to the drop down*/
   z-index: 1;
-  border-radius: 10px; /*curves the boder corners*/
+  /* makes dropdown appears above other elements */
+  border-radius: 10px;
+  /*curves the boder corners*/
 }
 
 div.dropdwn-content a {
   color: #000000a6;
+  /*color of the links in the drop down*/
   width: 100%;
   font-family: 'nunito', cursive;
+  /*font of the links in the drop down*/
   background-color: #fbe7ac;
   display: block;
+  /*displays the links in a block*/
   text-decoration: none;
   text-align: left;
+  /*aligns the text to the left*/
   padding: 20px;
   box-sizing: border-box;
   overflow-x: hidden;
+  /*hides horizontal overflow*/
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 div#dropdwn-content #more {
+  /*style for the more button*/
   border-top-right-radius: 10px;
+  /*curves the boder corners*/
   border-top-left-radius: 10px;
+  /*curves the boder corners*/
   border-bottom-left-radius: 0px;
+  /*curves the boder corners*/
   border-bottom-right-radius: 0px;
+  /*curves the boder corners*/
   border-bottom: 2px solid #a67c52;
 }
+
 div.dropdwn-content.show {
   display: block;
 }
+
 div.dropdwn-content a:hover {
   background-color: #e9d187;
   text-decoration: underline;
+  /*adds an underline when hovered*/
 }
+
 div.dropdwn-content #more a:hover {
   background-color: #e9d187;
+  /*changes the background color when hovered*/
   text-decoration: underline;
 }
+
 div.dropdwn-content a:focus {
+  /* changes the outline from the links when focused*/
   border: 3px solid #a67c52;
   display: block;
+  /*displays the links in a block*/
   background-color: #e9d187;
   text-decoration: underline;
 }
 
 p {
-  padding: 30px; /*spaces the words from the border*/
+  padding: 30px;
+  /*spaces the words from the border*/
   margin-right: 15px;
   font-family: 'nunito', cursive;
   font-size: 22px;
   line-height: 200%;
+  /*spaces the lines from each other*/
   letter-spacing: 0.5px;
   word-spacing: 1px;
+  /*spaces the words from each other*/
   text-align: left;
+  /*aligns the text to the left*/
   color: #333333;
 }
+
 article p {
   background-color: #f0ac4ec4;
   margin-top: -10px;
   margin-left: 80px;
+  /*spaces the words from the left*/
   margin-right: 80px;
-  border-radius: 3px; /*curves the boder corners*/
+  border-radius: 3px;
+  /*curves the boder corners*/
 }
 
 h2 {
   /*defult for the article headers(and all h2)*/
   font-family: 'Fredoka', cursive;
+  /*font of the headers*/
   font-size: 50px;
   background-color: #d9534f;
+  /*background color of the header*/
   padding: 50px;
   text-align: center;
+  /*aligns the text to the center*/
   border-radius: 10px;
 }
+
 hr {
   border: 10px dotted #d9534f;
-  border-radius: 30%; /*curves the border*/
-  border-left: none; /*removes the border from the left*/
+  border-radius: 30%;
+  /*curves the border*/
+  border-left: none;
+  /*removes the border from the left*/
   border-right: none;
   height: 10px;
   width: 90%;
   margin-top: 50px;
+  /*spaces the hr from the top*/
   margin-bottom: 50px;
   padding: 20px;
 }
+
 footer p {
   /*footer pararaph*/
   font-family: 'Faustina';
+  /*font of the footer*/
   margin-bottom: 0px;
   font-size: 30px;
   color: #ffffff;
+  /*color of the text in the footer*/
   text-align: center;
 }
+
 footer {
   background-color: #a67c52;
   margin-top: 90px;
+  /*spaces the footer from the top*/
   text-align: center;
 }
 
 div#Title {
   /*style for the websites name*/
   font-size: 3.2rem;
+  /*size of the title*/
   padding: 0%;
   margin-left: -3%;
   margin-right: auto;
+  /*spaces the title from the left*/
   width: 100%;
   font-family: 'Short Stack', cursive;
   color: #000000;
+  /*color of the title*/
   text-align: center;
   text-transform: uppercase;
-  text-decoration: underline 5px #983733; /*design for the underline of title*/
+  /*changes the text to uppercase*/
+  text-decoration: underline 5px #983733;
+  /*design for the underline of title*/
 }
+
 body {
   /*style for the basic webpages*/
   background-color: #f5e8c7;
   margin: 0;
+  /*removes the margin from the body*/
   text-align: center;
 }
+
 .source a {
   /*sources defult */
   text-decoration: underline;
+  /*adds an underline to the links*/
   font-family: 'Nunito', cursive;
   color: #8a6744;
   font-size: 22px;
+  /*size of the links*/
 }
+
 .source a:hover {
   color: #d9534f;
 }
+
 img {
-  /*defult settings for all images*/
+  /*defult settings for all images (alt text)*/
   background-color: #efcb60be;
   color: #000;
-  font-size: 17px;
+  /*color of the images*/
+  font-size: 25px;
+  font-family: 'nunito', cursive;
+  /*font of the images*/
+  text-align: center;
+  /*aligns the text to the center*/
 }
